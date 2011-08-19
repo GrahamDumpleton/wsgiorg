@@ -1,0 +1,2 @@
+Specfications related to WSGI
+=============================
