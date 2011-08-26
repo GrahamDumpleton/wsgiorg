@@ -26,10 +26,6 @@ Learn about WSGI
   <http://osdcpapers.cgpublisher.com/product/pub.84/prod.21>`_ by Mark
   Rees (**particularly good as a starting point**)
 
-* `An Introduction to WSGI
-  <http://www.vanpyz.org/conference/2006/proceedings/2zuMrv>`_ by Ian
-  Bicking (slides, handout, and code examples)
-
 * `Mix and match Web components with Python WSGI
   <http://www-128.ibm.com/developerworks/library/wa-wsgi/>`_ by Uche
   Ogbuji
