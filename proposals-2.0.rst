@@ -33,18 +33,19 @@ Making some keys required
 -------------------------
 
 Several keys are optional in WSGI, but required in CGI, in particular
-``SCRIPT_NAME``, ``PATH_INFO`` and ``QUERY_STRING``. Also
-``REMOTE_ADDR`` and ``SERVER_SOFTWARE`` are supposed to exist, even if
-empty. All these keys could become required in WSGI.
+:envvar:`SCRIPT_NAME`, :envvar:`PATH_INFO` and
+:envvar:`QUERY_STRING`. Also :envvar:`REMOTE_ADDR` and
+:envvar:`SERVER_SOFTWARE` are supposed to exist, even if empty. All
+these keys could become required in WSGI.
 
 Unknown-length wsgi.input
 -------------------------
 
 There's no documented way to indicate that there is content in
 ``environ['wsgi.input']``, but the content length is unknown. A value
-of ``-1`` may work in many situations. A missing ``CONTENT_LENGTH``
-doesn't generally work currently (it's assumed to mean 0 by much
-code).
+of ``-1`` may work in many situations. A missing
+:envvar:`CONTENT_LENGTH` doesn't generally work currently (it's
+assumed to mean 0 by much code).
 
 This is an issue because chunked transfer encoding on request content
 can't be supported properly unless there is a way to indicate that
@@ -56,8 +57,8 @@ advance of mutating the data stream.
 Any change in this area also needs to take into consideration the
 current link between CGI and WSGI specifications and whether the CGI
 requirement to not read more input data than defined by
-``CONTENT_LENGTH`` and that returning an EOF indicator is optional is
-really appropriate for WSGI.
+:envvar:`CONTENT_LENGTH` and that returning an EOF indicator is
+optional is really appropriate for WSGI.
 
 For more information see thread:
 http://mail.python.org/pipermail/web-sig/2007-March/002630.html
@@ -67,8 +68,8 @@ readline(size)
 
 Currently the specification does not require servers to provide
 ``environ['wsgi.input'].readline(size)`` (the size argument in
-particular). But ``cgi.FieldStorage`` calls readline this way, so in
-effect it is required.
+particular). But :py:class:`cgi.FieldStorage` calls readline this way,
+so in effect it is required.
 
 app_iter and threads
 --------------------
@@ -96,8 +97,8 @@ application is called.
 Decoding SCRIPT_NAME/PATH_INFO
 ------------------------------
 
-Because ``SCRIPT_NAME`` and ``PATH_INFO`` are decoded in WSGI, there's
-no way to distinguish ``%2F`` from ``/``
+Because :envvar:`SCRIPT_NAME` and :envvar:`PATH_INFO` are decoded in
+WSGI, there's no way to distinguish ``%2F`` from ``/``
 
 No encoding horrors any more
 ----------------------------
@@ -108,8 +109,8 @@ http://www.mail-archive.com/web-sig@python.org/msg02483.html
 Can we have that horror removed for wsgi2 apps, please?
 
 A quite easy approach would be to have a set of ``RAW_*`` env vars
-(e.g. ``RAW_PATH_INFO``) that has ``/Foo%XXBar%YY`` content (is not
-decoded, plain ascii like in the http protocol).
+(e.g. :envvar:`RAW_PATH_INFO`) that has ``/Foo%XXBar%YY`` content (is
+not decoded, plain ascii like in the http protocol).
 
 That also would solve issues with ``?`` and ``/`` (see section above)
 that are encoded as ``%XX`` (and NOT meant as query / path component
