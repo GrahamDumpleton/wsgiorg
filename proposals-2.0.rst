@@ -4,14 +4,14 @@ Proposals related to WSGI 2.0
 This page is intended to collect any ideas related to WSGI 2.0. In
 particular, any proposed changes to the specification.
 
-NOTE: What is described here should not be considered a DRAFT for WSGI
-2.0. It is only a list of ideas or issues that need to be considered
-if there ever is enough momentum towards producing an updated WSGI
-specification. It is quite possible that there may never be an updated
-specification which embodies the ideas described here. Thus, if you
-implement any web application interfaces based on the API described
-here, call it something else, do not call it WSGI 2.0 as no such thing
-exists.
+.. note:: What is described here should not be considered a DRAFT for
+  WSGI 2.0. It is only a list of ideas or issues that need to be
+  considered if there ever is enough momentum towards producing an
+  updated WSGI specification. It is quite possible that there may
+  never be an updated specification which embodies the ideas described
+  here. Thus, if you implement any web application interfaces based on
+  the API described here, call it something else, do not call it WSGI
+  2.0 as no such thing exists.
 
 start_response and write
 ------------------------
