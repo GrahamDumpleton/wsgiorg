@@ -36,16 +36,13 @@ documentation on how to use the server is especially appreciated.
 
     WSGI server with extensions for coroutine oriented programming.
 
-`FAPWS3 (Fast Asynchronous Python Web Server) <http://william-os4y.livejournal.com/>`_
+`FAPWS <http://www.fapws.org/>`_
 
-    Fapws3 is a WSGI binding between Python and `libev
-    <http://software.schmorp.de/pkg/libev.html>`_. This makes Fapws3
-    one of the fastest WSGI web server and with a minimal memory foot
-    print. With the `release 0.2
-    <http://github.com/william-os4y/fapws3/tarball/v0.2>`_ you have a
-    fast and stable HTTP/1.0 webserver. Work is in progress to
-    implement HTTP/1.1 and HTTPS. More info are available on my `Blog
-    <http://william-os4y.livejournal.com/>`_ or in our `GoogleGroup
+    Fapws is a WSGI binding between Python and `libev
+    <http://software.schmorp.de/pkg/libev.html>`_.
+
+    See also: `author's block
+    <http://william-os4y.livejournal.com/>`_, `GoogleGroup
     <http://groups.google.com/group/fapws>`_.
 
 `fcgiapp <http://cheeseshop.python.org/pypi/fcgiapp/1.4>`_
