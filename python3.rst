@@ -76,43 +76,40 @@ between these proposals.
 +---------------------------------------------+----------+-------------------+--------------------+-------------+------------------+
 
 Notes:
- * a 'native string' is the primary string type for a particular
-   Python implementation:
+
+* a *native string* is the primary string type for a particular
+  Python implementation:
 
   * for Python 2.x this is a byte string,
   * for Python 3.x this is a Unicode string
-
- * unless otherwise stated, all Unicode strings are decoded using
-   ``ISO-8859-1``
- * when :envvar:`SCRIPT_NAME` and :envvar:`PATH_INFO` are 'native' or
-   'unicode', the environment should contain 2 additional values
-   :envvar:`wsgi.script_name` and :envvar:`wsgi.path_info` which
-   contain raw-bytes values.  (Except in the **flat** proposal, which
-   assumes CGI variables are decoded as ``utf-8`` using :pep:`383`
-   surrogateescape encoding, and that the raw bytes can thus be
-   retrieved by re-encoding.)
- * details about the **mod_wsgi** proposal:
+* unless otherwise stated, all unicode strings are decoded using
+  ``ISO-8859-1``
+* when :envvar:`SCRIPT_NAME` and :envvar:`PATH_INFO` are 'native' or
+  'unicode', the environment should contain 2 additional values
+  :envvar:`wsgi.script_name` and :envvar:`wsgi.path_info` which
+  contain raw-bytes values.  (Except in the **flat** proposal, which
+  assumes CGI variables are decoded as ``utf-8`` using :pep:`383`
+  surrogateescape encoding, and that the raw bytes can thus be
+  retrieved by re-encoding.)
+* details about the **mod_wsgi** proposal:
 
   * it is already implemented in mod_wsgi 3.0
-  * almost entirely compatible with current **WSGI 1.0** for Python
-    2
-  * it runs the **WSGI 1.0** 'Hello World!' unchanged
+  * almost entirely compatible with current WSGI 1.0 for Python 2
+  * it runs the WSGI 1.0 'Hello World!' unchanged
+* details about the **all unicode** proposal:
 
- * details about the '''`Unicode`''' proposal:
+  * the :envvar:`SCRIPT_NAME` and :envvar:`PATH_INFO` will be decoded
+    as ``UTF-8``. If it fails, they are decoded as ``ISO-8859-1``.
+    The name of the successful codec is stored in
+    :envvar:`wsgi.uri_encoding`.
+  * the :envvar:`REQUEST_URI` variable is optional and stores the full
+    URI as requested by the client.
+* details about the **web3** proposal:
 
-  * the ``SCRIPT_NAME`` and ``PATH_INFO`` will be decoded as
-    ``UTF-8``.  If it fails, they are decoded as ``ISO-8859-1``.  The
-    name of the successful codec is stored in ``wsgi.uri_encoding``.
-  * the ``REQUEST_URI`` variable is optional and stores the full URI as
-    requested by the client.
-
- * details about the **web3** proposal:
-
-  * this proposal does not try to be compatible with **WSGI 1.0**.  It
+  * this proposal does not try to be compatible with WSGI 1.0.  It
     targets Python 2.6+ and Python 3.1+.
   * all ``wsgi.*`` variables are intentionally renamed ``web3.*`` in the
     document.
-
 
 == Draft implementations ==
  * `mod_wsgi 3.0+ <http://code.google.com/p/modwsgi>`_: see the page
