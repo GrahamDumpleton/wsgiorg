@@ -171,9 +171,6 @@ Middleware and libraries for WSGI
     Turns any TurboGears/Buffet template plug-ins into WSGI
     middleware.
 
-`wsgixml <http://uche.ogbuji.net/tech/4suite/wsgixml/>`_
-    WSGI middleware modules for XML processing
-
 `wsgize <http://cheeseshop.python.org/pypi/wsgize/>`_
     WSGI without the WSGI. Provides middleware for WSGI-enabling
     Python callables including:
@@ -215,4 +212,7 @@ deprecated
 `WSGIOverlay <http://pythonpaste.org/wsgioverlay/>`_
     Application-neutral macro templating language. Seems to be
     superseded by Deliverance.
+
+`wsgixml <http://pypi.python.org/pypi/wsgixml/>`_
+    WSGI middleware modules for XML processing
 
