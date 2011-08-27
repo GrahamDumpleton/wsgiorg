@@ -171,13 +171,6 @@ Middleware and libraries for WSGI
     Turns any TurboGears/Buffet template plug-ins into WSGI
     middleware.
 
-`wsgiwurfl <http://cheeseshop.python.org/pypi/wsgiwurfl/>`_
-    A WSGI middleware interface to the `pywurfl
-    <http://wurfl.sourceforge.net/python>`_ package. The `WURFL
-    <http://wurfl.sourceforge.net>`_ (Wireless Universal Resource
-    File) is an XML configuration file which contains information
-    about capabilities and features of several wireless devices.
-
 `wsgixml <http://uche.ogbuji.net/tech/4suite/wsgixml/>`_
     WSGI middleware modules for XML processing
 
