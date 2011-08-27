@@ -63,7 +63,7 @@ links!
     to allow publishing existing Zope2 applications in a WSGI
     environment that externalizes some of the features of "classic"
     Zope2 into middleware.
-`simpleweb <http://simpleweb.essienitaessien.com>`_
+`simpleweb <http://code.google.com/p/simpleweb-py/>`_
     A simple Python WSGI-compliant web framework inspired by Django,
     TurboGears, and web.py.
 `skunk.web <http://code.google.com/p/satimol/>`_
