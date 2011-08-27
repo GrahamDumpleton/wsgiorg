@@ -113,7 +113,7 @@ documentation on how to use the server is especially appreciated.
 
 `Spawning <http://pypi.python.org/pypi/Spawning>`_
 
-`twisted.web <http://twistedmatrix.com/>`_
+`twisted.web <http://twistedmatrix.com/trac/wiki/TwistedWeb/>`_
 
    A WSGI server based on Twisted Web's HTTP server (requires Twisted
    8.2 or later).
