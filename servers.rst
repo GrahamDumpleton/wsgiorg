@@ -89,10 +89,6 @@ documentation on how to use the server is especially appreciated.
     `java servlet containers
     <http://en.wikipedia.org/wiki/Java_Servlet>`_.
 
-`modpywsgi <http://trac.pocoo.org/wiki/ModPyWsgi/>`_
-
-    A mod_python gateway
-
 `mod_wsgi <http://code.google.com/p/modwsgi/>`_
 
     Python WSGI adapter module for Apache
