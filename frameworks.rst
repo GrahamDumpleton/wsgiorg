@@ -34,9 +34,6 @@ links!
     and middleware.
 `Django <http://www.djangoproject.com/>`_
     Includes support for WSGI servers
-`Myghty <http://www.myghty.org>`_
-    A Python port of the HTML::Mason template language; includes
-    request handlers for mod_python, CGI, and WSGI.
 `Nettri <http://code.google.com/p/nettri/>`_
     Nettri is a newcomer of Python World. It is under heavy
     development. Features includes CMS, Own template Engine, modules
