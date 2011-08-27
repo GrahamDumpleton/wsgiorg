@@ -68,7 +68,7 @@ Note that this doesn't address any clarifications that may be required
 around ``wsgi.file_wrapper`` optional extension.
 
 Note that current thinking is that the WSGI adaptor should not worry
-about RFC 2047.
+about :rfc:`2047`.
 
 Errata 1
 --------
