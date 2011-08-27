@@ -100,18 +100,10 @@ documentation on how to use the server is especially appreciated.
     applications on Windows Server. This is a potential alternative to
     ISAPI + ISAPI_WSGI modules.
 
-`Paste Script <http://pythonpaste.org/script/>`_
+`paste.httpserver <http://pythonpaste.org/modules/httpserver.html#module-paste.httpserver>`_
 
-    In addition to other features, this includes a simple application
-    server (based on `Paste Deploy <http://pythonpaste.org/deploy/>`_)
-    that wraps several WSGI servers in a consistent configuration
-    interface.
-
-`Paste <http://pythonpaste.org/>`_
-
-    `paste.httpserver
-    <http://pythonpaste.org/module-paste.httpserver.html>`_ is a
-    threaded WSGI server.  Doesn't support Transfer-Encoding: chunked.
+    Minimalistic threaded WSGI server built on BaseHTTPServer. Doesn't
+    support Transfer-Encoding: chunked.
 
 `python-fastcgi <http://cheeseshop.python.org/pypi/python-fastcgi/1.1>`_
 
