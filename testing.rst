@@ -15,7 +15,7 @@ environment, with tracebacks and full use of debugging tools.
     WSGI application running in-process. Any testing tools written in
     Python can be made to test WSGI applications in-process.
 
-`Twill <http://www.idyll.org/~t/www-tools/>`_
+`Twill <http://twill.idyll.org/>`_
 
     See `Testing WSGI Apps with twill
     <http://ivory.idyll.org/articles/wsgi-intro/testing-wsgi-apps-with-twill.html>`_
