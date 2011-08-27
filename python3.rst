@@ -111,16 +111,18 @@ Notes:
   * all ``wsgi.*`` variables are intentionally renamed ``web3.*`` in the
     document.
 
-== Draft implementations ==
- * `mod_wsgi 3.0+ <http://code.google.com/p/modwsgi>`_: see the page
-   about `Python 3 support
-   <http://code.google.com/p/modwsgi/wiki/SupportForPython3X>`_
- * `CherryPy 3.2
-   <http://www.cherrypy.org/wiki/WhatsNewIn32#Python3Support>`_: see
-   details about `CherryPy's WSGI 1.1 implementation
-   <http://www.cherrypy.org/wiki/WSGI#WSGI1.0vsWSGI1.1>`_
- * `Experimental WSGI server for Python 3
-   <http://bitbucket.org/mitsuhiko/wsgi3k/>`_
+Draft implementations
+---------------------
+
+* `mod_wsgi 3.0+ <http://code.google.com/p/modwsgi>`_: see the page
+  about `Python 3 support
+  <http://code.google.com/p/modwsgi/wiki/SupportForPython3X>`_
+* `CherryPy 3.2
+  <http://www.cherrypy.org/wiki/WhatsNewIn32#Python3Support>`_: see
+  details about `CherryPy's Python 3 WSGI implementation
+  <http://www.cherrypy.org/wiki/WSGI#WSGI1.0vsWSGI1.1>`_
+* `Experimental WSGI servers for Python 3
+  <http://bitbucket.org/mitsuhiko/wsgi3k/>`_
 
 .. [Ochtman2010] Dirkjan Ochtman, (lost link), 2010
 
