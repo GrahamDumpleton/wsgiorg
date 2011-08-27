@@ -37,11 +37,11 @@ links!
 `Myghty <http://www.myghty.org>`_
     A Python port of the HTML::Mason template language; includes
     request handlers for mod_python, CGI, and WSGI.
-`Nettri <http://nettri.org>`_
+`Nettri <http://code.google.com/p/nettri/>`_
     Nettri is a newcomer of Python World. It is under heavy
     development. Features includes CMS, Own template Engine, modules
     and more coming.
-`notmm <http://gthc.org/projects/notmm/>`_
+`notmm <https://bitbucket.org/erob/notmm/overview>`_
     The notmm toolkit is a fork of Django that doesn't get in your
     way. Features includes improved WSGI support (Paste), SQLAlchemy,
     and very few developers! ;-)
