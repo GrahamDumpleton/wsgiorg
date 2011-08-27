@@ -38,14 +38,6 @@ Middleware and libraries for WSGI
     start_response and returning an iterable, httpy lets you return a
     string, or return or raise a Response object.
 
-`lwebstring <http://psilib.sourceforge.net/webstring.html>`_
-    An lxml-based implementation of webstring, an XML template engine
-    that includes WSGI middleware and function decorators for
-    outputting HTML or other XML formats from a WSGI
-    application. `lxml <http://codespeak.net/lxml/>`_ is a binding for
-    the libxml2 and libxslt libraries with support for many advanced
-    XML features.
-
 `selector <http://lukearno.com/projects/selector/>`_
     This distribution provides WSGI middleware for "RESTful" mapping
     of URL paths to WSGI applications. Selector now also comes with
@@ -238,3 +230,14 @@ Middleware and libraries for WSGI
     tags, cache control headers, HTTP dates, cookie handling, file
     uploads, a powerful URL routing system and a bunch of community
     contributed addon modules.
+
+deprecated
+----------
+
+`webstring <http://psilib.sourceforge.net/webstring.html>`_
+    webstring is a template engine for programmers whose favorite
+    template language is Python. webstring can be used to generate any
+    text format from a template with the additional advantage of
+    advanced XML and HTML templating using the lxml and cElementTree
+    libraries.
+
