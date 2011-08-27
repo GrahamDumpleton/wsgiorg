@@ -144,10 +144,6 @@ Middleware and libraries for WSGI
     HTML-formatted exception tracebacks to a web browser for
     debugging.
 
-`WSGIOverlay <http://pythonpaste.org/wsgioverlay/>`_
-    Application-neutral macro templating language. Seems to be
-    superseded by Deliverance.
-
 `WSGIRemote <http://pythonpaste.org/wsgiremote/>`_
     Client library for doing RPC-style internal subrequests in a WSGI
     stack.  Also works for doing HTTP RPC requests.
@@ -222,4 +218,8 @@ deprecated
     is imported all over again. The concept was inspired by the
     RollBackImporter used by Steve Purcell in `PyUnit
     <http://pyunit.sourceforge.net/notes/reloading.html>`_
+
+`WSGIOverlay <http://pythonpaste.org/wsgioverlay/>`_
+    Application-neutral macro templating language. Seems to be
+    superseded by Deliverance.
 
