@@ -41,26 +41,26 @@ so in effect it is required.
 Python 3
 --------
 
-:doc:`python3` default string type is now Unicode aware and existing
-strings are now more look byte strings. This changes how terms need to
-be interpreted. From `discussion on Python WEB-SIG
+:doc:`python3` default string type is now unicode and existing python2
+strings correspond to bytes. This changes how terms need to be
+interpreted. From `WSGI, Python 3 and Unicode
 <http://groups.google.com/group/python-web-sig/browse_frm/thread/f8f54fe99485312a/046841da888eac1e#046841da888eac1e>`_,
 the following suggested amendments were proposed for Python 3.
 
- * When running under Python 3, applications SHOULD produce bytes
+ * When running under Python 3, applications **SHOULD** produce bytes
    output, status line and headers
- * When running under Python 3, servers and gateways MUST accept
+ * When running under Python 3, servers and gateways **MUST** accept
    strings as application output, status line or headers, under the
-   existing rules (i.e., s.encode('latin-1') must convert the string
-   to bytes without an exception)
- * When running under Python 3, servers MUST provide CGI HTTP
+   existing rules (i.e., ``s.encode('latin-1')`` must convert the
+   string to bytes without an exception)
+ * When running under Python 3, servers **MUST** provide CGI HTTP
    variables and as strings, decoded from the headers using HTTP
-   standard encodings (i.e. latin-1 + RFC 2047) (Open question: are
+   standard encodings (i.e. latin-1 + :rfc:`2047`) (Open question: are
    there any CGI or WSGI variables that should NOT be strings?)
- * When running under Python 3, servers MUST make wsgi.input a binary
-   (byte) stream
- * When running under Python 3, servers MUST provide a text stream for
-   wsgi.errors
+ * When running under Python 3, servers **MUST** make ``wsgi.input`` a
+   binary (byte) stream
+ * When running under Python 3, servers **MUST** provide a text stream
+   for ``wsgi.errors``
 
 See the mailing list archive for the full discussion of issues.
 
@@ -76,14 +76,15 @@ Errata 1
 In the "Specification Details" chapter there is this note:
 
 .. note::
-    the application must invoke the start_response() callable before
-    the iterable yields its first body string, so that the server can
-    send the headers before any body content. However, this invocation
-    may be performed by the iterable's first iteration, so servers
-    must not assume that start_response() has been called before they
-    begin iterating over the iterable.)  What's wrong is that the
-    invocation of start_response may be performed at any iteration of
-    the iterable, as long as the application yields empty strings.
+    the application must invoke the ``start_response()`` callable
+    before the iterable yields its first body string, so that the
+    server can send the headers before any body content. However, this
+    invocation may be performed by the iterable's first iteration, so
+    servers must not assume that ``start_response()`` has been called
+    before they begin iterating over the iterable.)  What's wrong is
+    that the invocation of start_response may be performed at any
+    iteration of the iterable, as long as the application yields empty
+    strings.
 
 See http://mail.python.org/pipermail/web-sig/2007-December/003064.html
 for more info.
@@ -128,8 +129,8 @@ http://mail.python.org/pipermail/web-sig/2007-September/002771.html
 Clarification about start_response
 ----------------------------------
 
-What happens if an application call start_response with an incorrect
-status line or headers?
+What happens if an application calls ``start_response`` with an
+incorrect status line or headers?
 
 Should an implementation consider the function *called*, so that an
 application can call it a second time, *without* the exc_info
@@ -142,6 +143,6 @@ Specify the type of ``SERVER_PORT``
 
 Some implementations currently expect it to be an integer, some a
 string.  Can we please specify one or the other or either? The "URL
-reconstruction" code snippet in PEP 333 presumes it's a string, the
+reconstruction" code snippet in :pep:`333` presumes it's a string, the
 reference to the (defunct) CGI spec would seem to imply it should be a
 string, but it should be explicit.
