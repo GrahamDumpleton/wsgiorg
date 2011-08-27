@@ -53,10 +53,6 @@ Applications that run on WSGI
     structures, binary attachments, a simple framework for creating
     additional serialization mechanisms, and a client library.
 
-`thredds <http://pydap.org/related/thredds.html>`_
-
-    A THREDDS catalog generator implemented as a WSGI application.
-
 `Trac <http://trac.edgewall.org/>`_
 
     Trac is a popular issue tracker.  It includes WSGI support in
