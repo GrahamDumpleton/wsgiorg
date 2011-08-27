@@ -104,12 +104,6 @@ Middleware and libraries for WSGI
     application based on a matching a URL path regex pattern and,
     optionally, the HTTP request method.
 
-`Web Modules <http://www.pythonweb.org/projects/webmodules>`_
-    The Python Web Modules are a suite of simple and easy to use
-    Python components designed to allow developers to write Python CGI
-    scripts or web applications with SQL databases, sessions,
-    templates, email and authorisation functionality.
-
 `webstring <http://psilib.sourceforge.net/webstring.html>`_
     Template engine that includes WSGI middleware for producing any
     text format from a template. Includes special support for XML and
