@@ -59,13 +59,10 @@ Middleware and libraries for WSGI
 
 `Paste <http://pythonpaste.org/>`_
     Roughly a framework, though more of a set of tools for frameworks.
-    Used natively in some frameworks, like `Pylons
-    <http://pylonshq.com/>`__, `Paste WebKit
-    <http://pythonpaste.org/webkit/>`_, and `RhubarbTart
-    <http://rhubarbtart.org/>`_.  Integration layers with projects
-    like `CherryPaste <http://pythonpaste.org/cherrypaste/>`_,
-    `DjangoPaste <http://pythonpaste.org/djangopaste/>`_ and
-    `zope.paste <http://cheeseshop.python.org/pypi/zope.paste/0.1>`_.
+    Provides Integration layers with other frameworks like
+    `CherryPaste <http://pythonpaste.org/cherrypaste/>`_, `DjangoPaste
+    <http://pythonpaste.org/djangopaste/>`_ and `zope.paste
+    <http://cheeseshop.python.org/pypi/zope.paste/0.1>`_.
 
 `Paste Deploy <http://pythonpaste.org/deploy/>`_
     Configuration system for WSGI applications, servers, and
