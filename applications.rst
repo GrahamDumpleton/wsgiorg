@@ -6,15 +6,6 @@ Applications that run on WSGI
     Illustration of ajax applications running on a modwsgi apache
     server.
 
-`BrightContent <http://brightcontent.net/>`_
-
-    Python weblog software built from reusable components. It offers
-    many of the usual features of weblog engines, but its basic
-    opration and plug-in model is based on WSGI. Many existing WSGI
-    components can be plugged directly into Bright Content in order to
-    enhance its functionality. Bright Content also has a set of
-    specialized components for common weblog needs.
-
 `FSCSI search <http://aaron.oirt.rutgers.edu/myapp/search/search>`_
 
     A syntax-aware web search interface for searching large source
@@ -78,3 +69,16 @@ Applications that run on WSGI
 `WSGIMail <http://wsgimail.org/>`_
 
     WSGIMail is a webmail program written in Python.
+
+Deprecated
+----------
+
+`BrightContent <http://code.google.com/p/brightcontent/>`_
+
+    Python weblog software built from reusable components. It offers
+    many of the usual features of weblog engines, but its basic
+    opration and plug-in model is based on WSGI. Many existing WSGI
+    components can be plugged directly into Bright Content in order to
+    enhance its functionality. Bright Content also has a set of
+    specialized components for common weblog needs.
+
