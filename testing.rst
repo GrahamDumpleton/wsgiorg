@@ -9,8 +9,7 @@ However, some testing frameworks work more intimately with WSGI, and
 provide the ability the call WSGI applications in a controlled
 environment, with tracebacks and full use of debugging tools.
 
-`WSGI Intercept
-<http://darcs.idyll.org/~t/projects/wsgi_intercept/README.html>`_
+`WSGI Intercept <http://code.google.com/p/wsgi-intercept/>`_
 
     Intercepts normal Python calls to httplib, and redirects them to a
     WSGI application running in-process. Any testing tools written in
