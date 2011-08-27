@@ -58,10 +58,6 @@ Applications that run on WSGI
     Trac is a popular issue tracker.  It includes WSGI support in
     ``trac.web.wsgi``
 
-`WSGIMail <http://wsgimail.org/>`_
-
-    WSGIMail is a webmail program written in Python.
-
 Deprecated
 ----------
 
