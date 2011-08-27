@@ -20,13 +20,6 @@ Middleware and libraries for WSGI
     ported for use in Myghty. Beaker was then extracted from this
     code, and has been substantially rewritten and modernized since.
 
-`dbstore <http://lukearno.com/projects/dbstore/>`_
-    This distribution provides database backed storage using any PEP
-    249 compliant database package in conjunction with `flup
-    <http://www.saddi.com/software/flup/>`_ flup.middleware.session. A
-    decorator for supplying WSGI apps with MySQLdb backed sessions is
-    provided.
-
 `Deliverance <http://deliverance.openplans.org/>`_
     Deliverance is a tool to theme HTML, applying a consistent style
     to applications and static files regardless of how they are
