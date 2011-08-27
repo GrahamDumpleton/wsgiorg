@@ -51,7 +51,8 @@ The actual competitors are:
    cognitive overhead (inputs are native except for the byte stream,
    all outputs are bytes)
 
-Here is a summary table which outline the bytes/Unicode differences between these proposals.
+Here is a summary table which outlines the bytes/unicode differences
+between these proposals.
 
 +---------------------------------------------+----------+-------------------+--------------------+-------------+------------------+
 |                                             | WSGI 1.0 |     mod_wsgi      |      Unicode       |    web3     |       flat       |
