@@ -44,7 +44,7 @@ Applications that run on WSGI
     Rum is a framework to develop CRUD web applications, usually used
     in the "admin" back-end of a website.
 
-`soaplib <http://github.com/jkp/soaplib>`_
+`soaplib <https://github.com/soaplib/soaplib>`_
 
     A simple, easily extensible SOAP library that provides several
     useful tools for creating and publishing SOAP web services in
