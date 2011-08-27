@@ -18,10 +18,6 @@ Applications that run on WSGI
 
     MoinMoin is a wiki engine written in Python.
 
-`Zine <http://zine.pocoo.org/>`_
-
-    A blog application written in Python.
-
 `PyAMF <http://www.pyamf.org/>`_
 
     PyAMF provides Action Message Format (AMF) support for Python that
@@ -57,6 +53,10 @@ Applications that run on WSGI
 
     Trac is a popular issue tracker.  It includes WSGI support in
     ``trac.web.wsgi``
+
+`Zine <http://zine.pocoo.org/>`_
+
+    A blog application written in Python.
 
 Deprecated
 ----------
