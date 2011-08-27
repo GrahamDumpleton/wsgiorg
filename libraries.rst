@@ -78,8 +78,8 @@ Middleware and libraries for WSGI
     to run Zope 2 and Plone applications under WSGI servers.
 
 `SchevoWsgi <http://cheeseshop.python.org/pypi/SchevoWsgi/>`_
-    Provides integration between `Schevo <http://schevo.org/>`_ and
-    WSGI apps.
+    Provides integration between `Schevo
+    <https://github.com/11craft/schevo>`_ and WSGI apps.
 
 `ToscaWidgets <http://toscawidgets.org/>`_
     A web widget toolkit for Python to aid in the creation, packaging,
