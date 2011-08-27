@@ -6,7 +6,7 @@ Applications that run on WSGI
     Illustration of ajax applications running on a modwsgi apache
     server.
 
-`FSCSI search <http://aaron.oirt.rutgers.edu/myapp/search/search>`_
+`FSCSI search <http://whiffdoc.appspot.com/docs/W1300_1000.search>`_
 
     A syntax-aware web search interface for searching large source
     code file system trees (using the Python 2.6.1 distribution in the
