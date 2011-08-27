@@ -123,6 +123,12 @@ documentation on how to use the server is especially appreciated.
    Fast, self-healing, developer-friendly WSGI server, meant for
    professional deployment and development of Python Web applications.
 
+`werkzeug.serving <http://werkzeug.pocoo.org/docs/serving/>`_
+
+    Werkzeug's multithreaded and multiprocessed development
+    server. Wraps wsgiref_ to add a reloader, multiprocessing, static
+    files handling and SSL.
+
 `WSGIUtils <http://www.owlfish.com/software/wsgiutils/index.html>`_
 
     Includes a threaded HTTP server.
