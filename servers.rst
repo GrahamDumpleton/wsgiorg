@@ -55,11 +55,10 @@ documentation on how to use the server is especially appreciated.
     Includes threaded and forking versions of servers that support
     FastCGI, SCGI, and AJP protocols.
 
-`Gunicorn <http://github.com/benoitc/gunicorn>`_
+`Gunicorn <http://gunicorn.org>`_
 
-    **gunicorn** 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast
-    clients and nothing else.  This is a port of Unicorn
-    (http://unicorn.bogomips.org/) in Python
+    WSGI HTTP Server for UNIX, fast clients and nothing else. This is
+    a port of Unicorn_ to Python and WSGI.
 
 `ISAPI-WSGI <http://code.google.com/p/isapi-wsgi/>`_
 
@@ -74,9 +73,7 @@ documentation on how to use the server is especially appreciated.
 
 `Julep <http://code.google.com/p/julep/>`_
 
-    A WSGI Server inspired by `Unicorn
-    <http://raa.ruby-lang.org/project/unicorn/>`_, written in pure
-    Python.
+    A WSGI Server inspired by Unicorn_, written in pure Python.
 
 `m2twisted <http://www.python.org/pypi/m2twisted>`_
 
@@ -154,3 +151,5 @@ documentation on how to use the server is especially appreciated.
     WSGI application as a CGI script), and a framework for building
     other servers.
 
+.. _Unicorn:
+    http://unicorn.bogomips.org/
