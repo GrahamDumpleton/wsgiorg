@@ -6,9 +6,9 @@ Middleware and libraries for WSGI
     applications and frameworks.
 
     The authentication middleware part is essentially an extension of
-    `paste.auth <http://pythonpaste.org/module-paste.auth.html>`_ and
-    there is an adaptor module to provide good support for `Pylons
-    <http://pylonshq.com>`_ although it works with all WSGI apps.
+    paste.auth and there is an adaptor module providing support
+    for `Pylons <http://pylonshq.com>`_ although it works with all
+    WSGI apps.
 
 `Barrel <http://lukearno.com/projects/barrel/>`_
     Flexible WSGI authentication and authorization tools.
