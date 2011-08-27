@@ -108,12 +108,24 @@ unmaintained.
     construction. Clever Harold is a complete WSGI framework. To build
     an application, you pick and choose the servers and components
     that fit your needs.
-`RhubarbTart <http://pypi.python.org/pypi/RhubarbTart/0.5>`_
-    A pure-WSGI dispatcher and simple framework, inspired by CherryPy.
 `Colubrid <http://wsgiarea.pocoo.org/colubrid/>`_
     Colubrid is a WSGI publisher which simplifies python web
     developement.  Colubrid is not a framework :-) Although some
     people like the idea of having found a framework in colubrid. All
     colubrid does for you is parsing form data / url parameters /
     cookies and providing a url dispatcher. Colubrid was replaced by
-    `Werkzeug <http://werkzeug.pocoo.org/>`_.
+    :ref:`werkzeug`.
+`Pylons <http://pylonshq.com/>`_
+    Full-stack Python web development framework combining the very
+    best from the worlds of Ruby, Python and Perl.
+
+    Pylons has been superseded by pyramid_ .
+`repoze.bfg <http://bfg.repoze.org>`_
+    A Python WSGI-compliant web framework inspired by Zope, Pylons,
+    and Django with built-in security and templating.
+
+    repoze.bfg was renamed pyramid_ and moved under the Pylons
+    project.
+`RhubarbTart <http://pypi.python.org/pypi/RhubarbTart/0.5>`_
+    A pure-WSGI dispatcher and simple framework, inspired by CherryPy.
+
