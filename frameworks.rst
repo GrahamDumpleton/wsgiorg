@@ -34,19 +34,10 @@ links!
     and middleware.
 `Django <http://www.djangoproject.com/>`_
     Includes support for WSGI servers
-`Nettri <http://code.google.com/p/nettri/>`_
-    Nettri is a newcomer of Python World. It is under heavy
-    development. Features includes CMS, Own template Engine, modules
-    and more coming.
 `notmm <https://bitbucket.org/erob/notmm/overview>`_
     The notmm toolkit is a fork of Django that doesn't get in your
     way. Features includes improved WSGI support (Paste), SQLAlchemy,
     and very few developers! ;-)
-`Paste WebKit <http://pythonpaste.org/webkit/>`_
-    An implementation of the `Webware <http://webwareforpython.org>`_
-    servlet API using Paste infrastructure and WSGI.
-`pycoon <http://code.google.com/p/pycoon/>`_
-    Pythonic web development framework based on XML pipelines and WSGI
 `Pyramid <https://www.pylonsproject.org/projects/pyramid/about>`_
     Merger of the Pylons and repoze.bfg projects, Pyramid is a
     minimalist web framework aiming at composability and making
@@ -60,17 +51,9 @@ links!
     to allow publishing existing Zope2 applications in a WSGI
     environment that externalizes some of the features of "classic"
     Zope2 into middleware.
-`simpleweb <http://code.google.com/p/simpleweb-py/>`_
-    A simple Python WSGI-compliant web framework inspired by Django,
-    TurboGears, and web.py.
-`skunk.web <http://code.google.com/p/satimol/>`_
-    A totally WSGI-ified version of SkunkWeb.
 `TurboGears <http://turbogears.org/>`_
     Database-driven app in minutes; inherits its WSGI support from
     CherryPy.
-`Wareweb <http://pythonpaste.org/wareweb/>`_
-    A rethinking of the Webware/WebKit servlet model, in a pure-WSGI
-    framework.  Not used widely.
 `web.py <http://webpy.org/>`_
     Makes web apps.  A small RESTful library.
 `web2py <http://web2py.com/>`_
@@ -82,11 +65,6 @@ links!
 `weblayer <http://packages.python.org/weblayer>`_
     weblayer is a lightweight, componentised package for writing WSGI
     applications.
-`WebStack <http://www.boddie.org.uk/python/WebStack.html>`_
-    WebStack is a package which provides a simple, common API for
-    Python Web applications, allowing such applications to run within
-    many different environments with virtually no changes to
-    application code.
 `Zope 3 <http://www.zope.org/>`_
     The venerable Python web framework, recreated anew in Zope 3, and
     now a WSGI application.  It *seems* to have some WSGI bits deep
@@ -112,6 +90,15 @@ unmaintained.
     colubrid does for you is parsing form data / url parameters /
     cookies and providing a url dispatcher. Colubrid was replaced by
     :ref:`werkzeug`.
+`Nettri <http://code.google.com/p/nettri/>`_
+    Nettri is a newcomer of Python World. It is under heavy
+    development. Features includes CMS, Own template Engine, modules
+    and more coming.
+`Paste WebKit <http://pythonpaste.org/webkit/>`_
+    An implementation of the `Webware <http://webwareforpython.org>`_
+    servlet API using Paste infrastructure and WSGI.
+`pycoon <http://code.google.com/p/pycoon/>`_
+    Pythonic web development framework based on XML pipelines and WSGI
 `Pylons <http://pylonshq.com/>`_
     Full-stack Python web development framework combining the very
     best from the worlds of Ruby, Python and Perl.
@@ -125,4 +112,16 @@ unmaintained.
     project.
 `RhubarbTart <http://pypi.python.org/pypi/RhubarbTart/0.5>`_
     A pure-WSGI dispatcher and simple framework, inspired by CherryPy.
-
+`simpleweb <http://code.google.com/p/simpleweb-py/>`_
+    A simple Python WSGI-compliant web framework inspired by Django,
+    TurboGears, and web.py.
+`skunk.web <http://code.google.com/p/satimol/>`_
+    A totally WSGI-ified version of SkunkWeb.
+`Wareweb <http://pythonpaste.org/wareweb/>`_
+    A rethinking of the Webware/WebKit servlet model, in a pure-WSGI
+    framework.  Not used widely.
+`WebStack <http://www.boddie.org.uk/python/WebStack.html>`_
+    WebStack is a package which provides a simple, common API for
+    Python Web applications, allowing such applications to run within
+    many different environments with virtually no changes to
+    application code.
