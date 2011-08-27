@@ -104,10 +104,6 @@ Middleware and libraries for WSGI
     application based on a matching a URL path regex pattern and,
     optionally, the HTTP request method.
 
-`web <http://www.pythonweb.org/web/>`_
-    Auth, session, mail, form and templating tools for writing CGI
-    scripts or WSGI web applications.
-
 `Web Modules <http://www.pythonweb.org/projects/webmodules>`_
     The Python Web Modules are a suite of simple and easy to use
     Python components designed to allow developers to write Python CGI
