@@ -127,12 +127,16 @@ documentation on how to use the server is especially appreciated.
 
     Includes a threaded HTTP server.
 
-`wsgiref <http://peak.telecommunity.com/wsgiref_docs/>`_
+`wsgiref <http://docs.python.org/library/wsgiref.html>`_ (`Python 3
+<http://docs.python.org/py3k/library/wsgiref.html>`_)
 
-    Was included as part of the standard library in Python 2.5; it
+    Included as part of thef standard library since Python 2.5; it
     includes a threaded HTTP server, a CGI server (for running any
     WSGI application as a CGI script), and a framework for building
     other servers.
+
+    For versions prior to Python 2.5, see `wsgiref's original home
+    <http://peak.telecommunity.com/wsgiref_docs/>`_.
 
 .. _Unicorn:
     http://unicorn.bogomips.org/
