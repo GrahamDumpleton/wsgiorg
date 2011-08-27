@@ -26,12 +26,6 @@ Middleware and libraries for WSGI
     implemented, and separating site-wide styling from
     application-level templating.
 
-
-`flup <http://www.saddi.com/software/flup/>`_
-    Includes a session middleware, an error-catching/emailing
-    middleware, and a gzipping middleware.  Also includes a publisher
-    inspired by mod_python's publisher module.
-
 `hatom2atom <http://lukearno.com/projects/hatom2atom>`_
     hatom2atom provides Python tools for use with
     hAtom2Atom.xsl. Includes a test runner that uses html/atom file
