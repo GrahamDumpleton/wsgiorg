@@ -111,11 +111,6 @@ documentation on how to use the server is especially appreciated.
     FastCGI C Library/SDK. It includes threaded and forking WSGI
     server implementations.
 
-`serve <http://www.pythonweb.org/serve/>`_
-
-    Pure python WSGI (PEP 333), CGI and web server classes which can
-    be used to quickly create a powerful web or application server.
-
 `Spawning <http://pypi.python.org/pypi/Spawning>`_
 
 `twisted.web <http://twistedmatrix.com/>`_
