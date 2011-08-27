@@ -50,21 +50,13 @@ links!
     servlet API using Paste infrastructure and WSGI.
 `pycoon <http://code.google.com/p/pycoon/>`_
     Pythonic web development framework based on XML pipelines and WSGI
-`Pylons <http://pylonshq.com/>`_
-    Pylons is a widely-used, modern full-stack Python web development
-    framework combining the very best from the worlds of Ruby, Python
-    and Perl.
-
-    Unlike some of the other frameworks listed on this page Pylons
-    uses `WSGI throughout <http://pylonshq.com/docs/wsgi.html>`_.  If
-    you are looking for a good starting point for a modern full-stack
-    WSGI framework, Pylons might be a good place to start.
+`Pyramid <https://www.pylonsproject.org/projects/pyramid/about>`_
+    Merger of the Pylons and repoze.bfg projects, Pyramid is a
+    minimalist web framework aiming at composability and making
+    developers paying only for what they use.
 `QWeb <http://antony.lesuisse.org/qweb/trac/>`_
     Another WSGI framework (not sure what the distinguishing features
     are)
-`repoze.bfg <http://bfg.repoze.org>`_
-    A Python WSGI-compliant web framework inspired by Zope, Pylons,
-    and Django with built-in security and templating.
 `repoze.zope2 <http://repoze.org>`_ 
     A module that implements an analogue of the Zope 2 ZPublisher,
     with some major simplifications and cleanups. Its core mission is
