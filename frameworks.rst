@@ -102,13 +102,13 @@ Deprecated Systems
 These systems still exist but got replaced by others or are
 unmaintained.
 
-`Clever Harold <http://www.cleverharold.com/>`_
+`Clever Harold <http://pypi.python.org/pypi/CleverHarold/0.1/>`_
     Clever Harold is an ambitious web framework. It has many features
     for rapid, reusable, and reliable web application
     construction. Clever Harold is a complete WSGI framework. To build
     an application, you pick and choose the servers and components
     that fit your needs.
-`RhubarbTart <http://rhubarbtart.org/>`_
+`RhubarbTart <http://pypi.python.org/pypi/RhubarbTart/0.5>`_
     A pure-WSGI dispatcher and simple framework, inspired by CherryPy.
 `Colubrid <http://wsgiarea.pocoo.org/colubrid/>`_
     Colubrid is a WSGI publisher which simplifies python web
