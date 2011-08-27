@@ -37,7 +37,7 @@ Applications that run on WSGI
 `Roundup <http://roundup.sf.net/>`_
 
     Roundup is a popular issue tracker which `includes WSGI support
-    <http://roundup.sourceforge.net/doc-1.0/installation.html#wsgi-handler>`_.
+    <http://roundup.sourceforge.net/docs/installation.html#wsgi-handler>`_.
 
 `RUM <http://python-rum.org/>`_
 
