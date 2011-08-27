@@ -1,7 +1,7 @@
 Middleware and libraries for WSGI
 =================================
 
-`AuthKit <http://authkit.org>`_:
+`AuthKit <http://authkit.org>`_
     AuthKit is an authentication and authorization toolkit for WSGI
     applications and frameworks.
 
@@ -10,10 +10,10 @@ Middleware and libraries for WSGI
     there is an adaptor module to provide good support for `Pylons
     <http://pylonshq.com>`_ although it works with all WSGI apps.
 
-`Barrel <http://lukearno.com/projects/barrel/>`_:
+`Barrel <http://lukearno.com/projects/barrel/>`_
     Flexible WSGI authentication and authorization tools.
 
-`Beaker <http://beaker.groovie.org/>`_:
+`Beaker <http://beaker.groovie.org/>`_
     Beaker is light WSGI middleware layer that provides session's
     using Myghty's `Container API
     <http://www.myghty.org/trac/wiki/ContainerAPI>`_.
