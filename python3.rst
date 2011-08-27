@@ -38,18 +38,16 @@ There's lots of discussions about the type of data (bytes versus
 unicode) in various places of the specification.
 
 The actual competitors are:
- * **mod_wsgi** implementation, formalized in a `draft WSGI 1.1 PEP
-   <http://hg.xavamedia.nl/peps/file/tip/wsgi-1.1.txt>`_ (Dirkjan
-   Ochtman, April 2010)
- * All **unicode** proposal, formalized in a `draft WSGI 2 PEP
-   <http://bitbucket.org/ianb/wsgi-peps/src/tip/pep-XXXX.txt>`_ (Armin
-   Ronacher, September 2009)
- * **web3** proposal, `an alternative approach
-   <http://github.com/mcdonc/web3/blob/master/web3.rst>`_ (Chris
-   !McDonough, July 2010)
- * **flat** proposal, optimized for ease of validation and low
-   cognitive overhead (inputs are native except for the byte stream,
-   all outputs are bytes)
+
+**mod_wsgi**
+  [Ochtman2010]_
+**all unicode**
+  [Ronacher2009]_
+**web3**
+  [McDonough2010]_
+**flat**
+   optimized for ease of validation and low cognitive overhead (inputs
+   are native except for the byte stream, all outputs are bytes)
 
 Here is a summary table which outlines the bytes/unicode differences
 between these proposals.
@@ -126,3 +124,9 @@ Notes:
    <http://www.cherrypy.org/wiki/WSGI#WSGI1.0vsWSGI1.1>`_
  * `Experimental WSGI server for Python 3
    <http://bitbucket.org/mitsuhiko/wsgi3k/>`_
+
+.. [Ochtman2010] Dirkjan Ochtman, (lost link), 2010
+
+.. [Ronacher2009] Armin Ronacher, http://bitbucket.org/ianb/wsgi-peps/src/tip/pep-XXXX.txt, 2009
+
+.. [McDonough2010] Chris McDonough, http://github.com/mcdonc/web3/blob/master/web3.rst, 2009
