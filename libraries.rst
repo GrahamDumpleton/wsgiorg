@@ -6,17 +6,19 @@ Middleware and libraries for WSGI
     applications and frameworks.
 
     The authentication middleware part is essentially an extension of
-    paste.auth and there is an adaptor module providing support
-    for `Pylons <http://pylonshq.com>`_ although it works with all
-    WSGI apps.
+    paste.auth and there is an adaptor module providing support for
+    `Pylons <http://pylonshq.com>`_ although it works with all WSGI
+    apps.
 
 `Barrel <http://lukearno.com/projects/barrel/>`_
     Flexible WSGI authentication and authorization tools.
 
 `Beaker <http://beaker.groovie.org/>`_
-    Beaker is light WSGI middleware layer that provides session's
-    using Myghty's `Container API
-    <http://www.myghty.org/trac/wiki/ContainerAPI>`_.
+    Lighweight WSGI sessions middleware.
+
+    Beaker’s starts with the Perl Cache::Cache module, which was
+    ported for use in Myghty. Beaker was then extracted from this
+    code, and has been substantially rewritten and modernized since.
 
 `dbstore <http://lukearno.com/projects/dbstore/>`_
     This distribution provides database backed storage using any PEP
