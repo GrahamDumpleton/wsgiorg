@@ -69,14 +69,6 @@ Middleware and libraries for WSGI
     middleware; both to configure individual components and to compose
     those components into a single running system.
 
-`memento <http://lukearno.com/projects/memento/>`_
-    This distribution provides code reloading middleware for use with
-    your WSGI applications. Upon recieving each request, it forgets
-    everything that it has imported since the last request so that it
-    is imported all over again. The concept was inspired by the
-    RollBackImporter used by Steve Purcell in PyUnit.
-    (http://pyunit.sourceforge.net/notes/reloading.html)
-
 `Repoze <http://repoze.org>`_
     Repoze is an effort to bring Zope technologies to the larger
     Python web development community by breaking Zope up into pieces
@@ -237,4 +229,12 @@ deprecated
     text format from a template with the additional advantage of
     advanced XML and HTML templating using the lxml and cElementTree
     libraries.
+
+`memento <http://lukearno.com/projects/memento/>`_
+    This distribution provides code reloading middleware for use with
+    your WSGI applications. Upon recieving each request, it forgets
+    everything that it has imported since the last request so that it
+    is imported all over again. The concept was inspired by the
+    RollBackImporter used by Steve Purcell in `PyUnit
+    <http://pyunit.sourceforge.net/notes/reloading.html>`_
 
