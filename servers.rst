@@ -16,16 +16,10 @@ documentation on how to use the server is especially appreciated.
     <http://httpd.apache.org/docs/2.2/mod/mod_proxy_ajp.html>`_. Also
     available in an SCGI flavor.
 
-`Aspen <http://www.zetadev.com/software/aspen/>`_
+`Aspen <http://aspen.io>`_
 
     A pure-Python web server (using the CherryPy module mentioned
-    next) with three hooks to hang your WSGI on. Currently
-    alpha-quality, but it does have a `nose-based test suite
-    <http://aspen.googlecode.com/svn/tags/0.3/src/aspen/tests/>`_,
-    `reference documentation
-    <http://www.zetadev.com/software/aspen/0.3/doc/html/>`_ and a
-    `tutorial
-    <http://www.zetadev.com/software/aspen/0.3/doc/html/tutorial.html>`_.
+    next) with three hooks to hang your WSGI on.
 
 `cherrypy.wsgiserver <http://www.cherrypy.org/browser/trunk/cherrypy/wsgiserver>`_
 
