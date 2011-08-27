@@ -39,7 +39,7 @@ environment, with tracebacks and full use of debugging tools.
 
     Unit test your websites with code that acts like a web browser.
 
-`zope.testbrowser <http://cheeseshop.python.org/pypi/ZopeTestbrowser>`_
+`zope.testbrowser <http://cheeseshop.python.org/pypi/zope.testbrowser>`_
 
     An easy to use programmatic web browser with special focus on
     testing. Used in Zope 3, but not Zope specific.
