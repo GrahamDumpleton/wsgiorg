@@ -34,6 +34,11 @@ links!
     and middleware.
 `Django <http://www.djangoproject.com/>`_
     Includes support for WSGI servers
+`Flask <http://flask.pocoo.org/>`_
+    Flask is a microframework for Python based on Werkzeug, Jinja 2
+    and good intentions.
+
+    It inherits its high WSGI usage and compliance from Werkzeug.
 `notmm <https://bitbucket.org/erob/notmm/overview>`_
     The notmm toolkit is a fork of Django that doesn't get in your
     way. Features includes improved WSGI support (Paste), SQLAlchemy,
