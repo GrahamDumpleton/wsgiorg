@@ -104,11 +104,6 @@ Middleware and libraries for WSGI
     application based on a matching a URL path regex pattern and,
     optionally, the HTTP request method.
 
-`webstring <http://psilib.sourceforge.net/webstring.html>`_
-    Template engine that includes WSGI middleware for producing any
-    text format from a template. Includes special support for XML and
-    HTML.
-
 `WFront <http://discorporate.us/jek/projects/wfront/>`_
     Front-door dispatcher that directs HTTP requests based on "virtual
     host".  Includes tools to isolate WSGI apps from server deployment
