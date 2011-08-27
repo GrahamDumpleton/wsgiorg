@@ -30,7 +30,8 @@ environment, with tracebacks and full use of debugging tools.
     Allows for testing WSGI applications without having to start a
     WSGI server.
 
-`webtest <http://www.cherrypy.org/file/trunk/cherrypy/test/webtest.py>`_
+`cherrypy.test.webtest
+<http://www.cherrypy.org/file/trunk/cherrypy/test/webtest.py>`_
 
     Extensions to unittest for web frameworks.
 
