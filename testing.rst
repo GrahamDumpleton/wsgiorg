@@ -15,18 +15,20 @@ environment, with tracebacks and full use of debugging tools.
     WSGI application running in-process. Any testing tools written in
     Python can be made to test WSGI applications in-process.
 
-`Paste <http://pythonpaste.org/>`_
-
-    Includes a wrapper for WSGI applications to make testing WSGI
-    applications convenient.  See `Testing Applications with Paste
-    <http://pythonpaste.org/testing-applications.html>`_ for details.
-
 `Twill <http://www.idyll.org/~t/www-tools/>`_
 
     See `Testing WSGI Apps with twill
     <http://ivory.idyll.org/articles/wsgi-intro/testing-wsgi-apps-with-twill.html>`_
     for a description of the specifics on plugging these together.
     WSGI Intercept was originally written for Twill.
+
+`WebTest <http://webtest.pythonpaste.org/en/latest/index.html>`_
+
+    Extraction of ``paste.fixture.TestApp``, rewriting portions to use
+    WebOb.
+
+    Allows for testing WSGI applications without having to start a
+    WSGI server.
 
 `webtest <http://www.cherrypy.org/file/trunk/cherrypy/test/webtest.py>`_
 
