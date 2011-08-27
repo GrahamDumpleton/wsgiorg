@@ -33,8 +33,8 @@ Middleware and libraries for WSGI
     proxy to transform hAtom documents into Atom (that you are looking
     at now).
 
-`httpy <http://www.zetadev.com/software/httpy/>`_
-    httpy smooths over WSGI's worst warts. In addition to calling
+`lib537.httpy <http://www.zetadev.com/software/lib537/>`_
+    Smooths over WSGI's worst warts. In addition to calling
     start_response and returning an iterable, httpy lets you return a
     string, or return or raise a Response object.
 
