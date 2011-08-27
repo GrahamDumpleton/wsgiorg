@@ -58,10 +58,6 @@ Applications that run on WSGI
     Trac is a popular issue tracker.  It includes WSGI support in
     ``trac.web.wsgi``
 
-`Webskine <http://dealmeida.net/projects/webskine/>`_
-
-    Webskine is a simple weblog with an AJAX interface.
-
 `WSGIMail <http://wsgimail.org/>`_
 
     WSGIMail is a webmail program written in Python.
@@ -77,4 +73,8 @@ Deprecated
     components can be plugged directly into Bright Content in order to
     enhance its functionality. Bright Content also has a set of
     specialized components for common weblog needs.
+
+`Webskine <http://code.google.com/p/webskine/>`_
+
+    Webskine is a simple weblog with an AJAX interface.
 
