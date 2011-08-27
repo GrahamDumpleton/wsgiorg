@@ -54,7 +54,7 @@ links!
     Merger of the Pylons and repoze.bfg projects, Pyramid is a
     minimalist web framework aiming at composability and making
     developers paying only for what they use.
-`QWeb <http://antony.lesuisse.org/qweb/trac/>`_
+`QWeb <https://github.com/antonylesuisse/qweb>`_
     Another WSGI framework (not sure what the distinguishing features
     are)
 `repoze.zope2 <http://repoze.org>`_ 
