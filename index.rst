@@ -22,6 +22,7 @@ Contents:
    specifications
    amendments-1.0
    proposals-2.0
+   python3
 
 Indices and tables
 ==================
