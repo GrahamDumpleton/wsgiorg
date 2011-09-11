@@ -42,10 +42,10 @@ Unknown-length wsgi.input
 -------------------------
 
 There's no documented way to indicate that there is content in
-``environ['wsgi.input']``, but the content length is unknown. A value
-of ``-1`` may work in many situations. A missing
-:envvar:`CONTENT_LENGTH` doesn't generally work currently (it's
-assumed to mean 0 by much code).
+:envvar:`wsgi.input`, but the content length is unknown. A value of
+``-1`` may work in many situations. A missing :envvar:`CONTENT_LENGTH`
+doesn't generally work currently (it's assumed to mean 0 by much
+code).
 
 This is an issue because chunked transfer encoding on request content
 can't be supported properly unless there is a way to indicate that

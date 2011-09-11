@@ -57,15 +57,15 @@ the following suggested amendments were proposed for Python 3.
    variables and as strings, decoded from the headers using HTTP
    standard encodings (i.e. latin-1 + :rfc:`2047`) (Open question: are
    there any CGI or WSGI variables that should NOT be strings?)
- * When running under Python 3, servers **MUST** make ``wsgi.input`` a
-   binary (byte) stream
+ * When running under Python 3, servers **MUST** make
+   :envvar:`wsgi.input` a binary (byte) stream
  * When running under Python 3, servers **MUST** provide a text stream
-   for ``wsgi.errors``
+   for :envvar:`wsgi.errors`
 
 See the mailing list archive for the full discussion of issues.
 
 Note that this doesn't address any clarifications that may be required
-around ``wsgi.file_wrapper`` optional extension.
+around :envvar:`wsgi.file_wrapper` optional extension.
 
 Note that current thinking is that the WSGI adaptor should not worry
 about :rfc:`2047`.
