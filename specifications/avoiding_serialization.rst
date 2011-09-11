@@ -1,5 +1,5 @@
-Avoiding Serialization When Stacking Middleware
-===============================================
+Techniques to avoid serializing the input or output when stacking middleware
+============================================================================
 
 :Title: Avoiding Serialization When Stacking Middleware
 :Author: Ian Bicking <ianb@colorstudy.com>

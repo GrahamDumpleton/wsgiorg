@@ -1,5 +1,5 @@
-Developer Auth
-==============
+Authentication for developer-oriented tools
+===========================================
 
 :Title: Developer Auth
 :Author: Ian Bicking <ianb@colorstudy.com>

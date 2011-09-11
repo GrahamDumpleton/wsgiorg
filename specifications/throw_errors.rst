@@ -1,5 +1,5 @@
-Throwing Errors
-===============
+How to disable error catching through the environment
+=====================================================
 
 :Title: x-wsgiorg.throw_errors
 :Author: Ian Bicking <ianb@colorstudy.com>

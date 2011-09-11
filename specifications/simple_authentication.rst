@@ -1,5 +1,5 @@
-Simple Authentication
-=====================
+A very basic description of authentication opportunities in WSGI
+================================================================
 
 :Title: Simple Authentication
 :Author: Ian Bicking <ianb@colorstudy.com>

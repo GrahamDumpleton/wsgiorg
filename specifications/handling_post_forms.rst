@@ -1,5 +1,5 @@
-Handling POST forms in WSGI
-===========================
+A specification for how to process POST form requests
+=====================================================
 
 :Title: Handling POST forms in WSGI
 :Author: Ian Bicking <ianb@colorstudy.com>

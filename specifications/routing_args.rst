@@ -1,5 +1,5 @@
-Routing Args
-============
+Where to put information parsed out of the request path
+=======================================================
 
 :Title: wsgiorg.routing_args
 :Author: Ian Bicking <ianb@colorstudy.com>

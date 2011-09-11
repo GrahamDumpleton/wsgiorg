@@ -1,5 +1,5 @@
-WSGI Unicode Handling
-=====================
+Unicode Support for WSGI
+========================
 
 :Title: WSGI Unicode Handling
 :Author: Armin Ronacher <armin.ronacher@active-4.com>
