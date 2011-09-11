@@ -1,5 +1,5 @@
-Specfications related to WSGI
-=============================
+Specifications related to WSGI
+==============================
 
 This page holds specifications (proposed, accepted, and withdrawn) that build on WSGI.
 
