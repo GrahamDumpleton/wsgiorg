@@ -94,7 +94,7 @@ unmaintained.
     people like the idea of having found a framework in colubrid. All
     colubrid does for you is parsing form data / url parameters /
     cookies and providing a url dispatcher. Colubrid was replaced by
-    :ref:`werkzeug`.
+    :ref:`Werkzeug <werkzeug-label>`.
 `Nettri <http://code.google.com/p/nettri/>`_
     Nettri is a newcomer of Python World. It is under heavy
     development. Features includes CMS, Own template Engine, modules
