@@ -24,9 +24,10 @@ Contents:
    proposals-2.0
    python3
 
+   definitions
+
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`search`
-

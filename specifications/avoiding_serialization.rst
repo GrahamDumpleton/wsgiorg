@@ -206,20 +206,20 @@ output-transforming middleware.  Ideally a framework of some sort
 would be used to construct this kind of middleware.
 
 Something that replaces :envvar:`wsgi.input` (like the example) may
-change the ``CONTENT_LENGTH`` of the request; normalization alone may
-change the length, even if the data is the same (e.g., there are
-multiple ways to urlencode a string).  However, there's no way without
-actually serializing to determine the proper length.  Ideally requests
-like this should allow simply reading to the end of the object,
-without needing a ``CONTENT_LENGTH`` restriction (this is not true for
-socket objects).  Ideally something like ``CONTENT_LENGTH="-1"`` would
-indicate this situation (simply a missing ``CONTENT_LENGTH`` generally
-means ``0``).  Another option is to set it to 1 and simply return the
-entire serialized response all at once.  :class:`cgi.FieldStorage`
-actually protects against this.  Or set it to a very very large value,
-and allow reading past the end (returning ``""``).  This is likely to
-work with most consumers.  I'm not sure what effect -1 will have on
-different code.
+change the :envvar:`CONTENT_LENGTH` of the request; normalization
+alone may change the length, even if the data is the same (e.g., there
+are multiple ways to urlencode a string).  However, there's no way
+without actually serializing to determine the proper length.  Ideally
+requests like this should allow simply reading to the end of the
+object, without needing a :envvar:`CONTENT_LENGTH` restriction (this
+is not true for socket objects).  Ideally something like
+``CONTENT_LENGTH="-1"`` would indicate this situation (simply a
+missing :envvar:`CONTENT_LENGTH` generally means ``0``).  Another
+option is to set it to 1 and simply return the entire serialized
+response all at once.  :class:`cgi.FieldStorage` actually protects
+against this.  Or set it to a very very large value, and allow reading
+past the end (returning ``""``).  This is likely to work with most
+consumers.  I'm not sure what effect -1 will have on different code.
 
 Other Possibilities
 -------------------
