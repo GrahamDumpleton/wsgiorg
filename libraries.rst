@@ -182,7 +182,9 @@ Middleware and libraries for WSGI
     * An HTTP response generator
     * A secondary WSGI dispatcher
 
-`Werkzeug <http://werkzeug.pocoo.org/>`_
+.. _werkzeug-label:
+
+ `Werkzeug <http://werkzeug.pocoo.org/>`_
     Werkzeug started as a simple collection of various utilities for
     WSGI applications and has become one of the most advanced WSGI
     utility modules.  It includes a powerful debugger, full featured
