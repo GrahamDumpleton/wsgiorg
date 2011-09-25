@@ -6,7 +6,8 @@
 WSGI
 ====
 
-Contents:
+Contents
+--------
 
 .. toctree::
    :maxdepth: 1
@@ -25,6 +26,17 @@ Contents:
    python3
 
    definitions
+
+Contributing
+------------
+
+Found a typo? Or some awkward wording? Want to add a link to a
+presentation, a tutorial or a new (or old and missing) WSGI-related
+tool? Fixing a dead link?
+
+WSGI.org is open-source and `hosted on github
+<https://github.com/GrahamDumpleton/wsgiorg>`_, contributions are
+encouraged and appreciated.
 
 Indices and tables
 ==================
