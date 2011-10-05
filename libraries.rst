@@ -38,9 +38,36 @@ Middleware and libraries for WSGI
     start_response and returning an iterable, httpy lets you return a
     string, or return or raise a Response object.
 
+`Oort <http://oort.to/>`_
+    A WSGI-enabled toolkit for creating RDF-driven web apps.
+
+`Paste <http://pythonpaste.org/>`_
+    Roughly a framework, though more of a set of tools for frameworks.
+    Provides Integration layers with other frameworks like
+    `CherryPaste <http://pythonpaste.org/cherrypaste/>`_, `DjangoPaste
+    <http://pythonpaste.org/djangopaste/>`_ and `zope.paste
+    <http://cheeseshop.python.org/pypi/zope.paste/0.1>`_.
+
+`Paste Deploy <http://pythonpaste.org/deploy/>`_
+    Configuration system for WSGI applications, servers, and
+    middleware; both to configure individual components and to compose
+    those components into a single running system.
+
 `raptorizemw <http://pypi.python.org/pypi/raptorizemw/>`_
     A layer of WSGI middleware that adds a velociraptor to every page served.
     Fact:  every WSGI app is better with a raptor.
+
+`Repoze <http://repoze.org>`_
+    Repoze is an effort to bring Zope technologies to the larger
+    Python web development community by breaking Zope up into pieces
+    that fit into a WSGI deployment model.  This effort also allows
+    existing Zope users to make use of WSGI technologies for
+    development and deployment purposes, notably including the ability
+    to run Zope 2 and Plone applications under WSGI servers.
+
+`SchevoWsgi <http://cheeseshop.python.org/pypi/SchevoWsgi/>`_
+    Provides integration between `Schevo
+    <https://github.com/11craft/schevo>`_ and WSGI apps.
 
 `selector <http://lukearno.com/projects/selector/>`_
     This distribution provides WSGI middleware for "RESTful" mapping
@@ -58,33 +85,6 @@ Middleware and libraries for WSGI
     this distribution does not require Python 2.4 or Kid unless you
     want to use those types of templates.
 
-`Oort <http://oort.to/>`_
-    A WSGI-enabled toolkit for creating RDF-driven web apps.
-
-`Paste <http://pythonpaste.org/>`_
-    Roughly a framework, though more of a set of tools for frameworks.
-    Provides Integration layers with other frameworks like
-    `CherryPaste <http://pythonpaste.org/cherrypaste/>`_, `DjangoPaste
-    <http://pythonpaste.org/djangopaste/>`_ and `zope.paste
-    <http://cheeseshop.python.org/pypi/zope.paste/0.1>`_.
-
-`Paste Deploy <http://pythonpaste.org/deploy/>`_
-    Configuration system for WSGI applications, servers, and
-    middleware; both to configure individual components and to compose
-    those components into a single running system.
-
-`Repoze <http://repoze.org>`_
-    Repoze is an effort to bring Zope technologies to the larger
-    Python web development community by breaking Zope up into pieces
-    that fit into a WSGI deployment model.  This effort also allows
-    existing Zope users to make use of WSGI technologies for
-    development and deployment purposes, notably including the ability
-    to run Zope 2 and Plone applications under WSGI servers.
-
-`SchevoWsgi <http://cheeseshop.python.org/pypi/SchevoWsgi/>`_
-    Provides integration between `Schevo
-    <https://github.com/11craft/schevo>`_ and WSGI apps.
-
 `ToscaWidgets <http://toscawidgets.org/>`_
     A web widget toolkit for Python to aid in the creation, packaging,
     and distribution of common view elements normally used in the
@@ -94,19 +94,21 @@ Middleware and libraries for WSGI
     easier maintenance and reuse in other Python web applications or
     frameworks.
 
-`yaro <http://lukearno.com/projects/yaro/>`_
-    This distribution provides Yet Another Request Object (for WSGI)
-    in a way that is intended to be simple and useful for web
-    developers who don't want to have to know a lot about WSGI to get
-    the job done. It's also a handy convenience for those who do like
-    to get under the hood but would be happy to eliminate some
-    boilerplate without the encumbrance of some
-    all-singing-all-dancing framework.
-
 `urlrelay <http://cheeseshop.python.org/pypi/urlrelay/>`_
     Simple RESTful URL dispatcher that passes HTTP requests to an WSGI
     application based on a matching a URL path regex pattern and,
     optionally, the HTTP request method.
+
+.. _werkzeug-label:
+
+`Werkzeug <http://werkzeug.pocoo.org/>`_
+    Werkzeug started as a simple collection of various utilities for
+    WSGI applications and has become one of the most advanced WSGI
+    utility modules.  It includes a powerful debugger, full featured
+    request and response objects, HTTP utilities to handle entity
+    tags, cache control headers, HTTP dates, cookie handling, file
+    uploads, a powerful URL routing system and a bunch of community
+    contributed addon modules.
 
 `WFront <http://discorporate.us/jek/projects/wfront/>`_
     Front-door dispatcher that directs HTTP requests based on "virtual
@@ -186,26 +188,17 @@ Middleware and libraries for WSGI
     * An HTTP response generator
     * A secondary WSGI dispatcher
 
-.. _werkzeug-label:
-
-`Werkzeug <http://werkzeug.pocoo.org/>`_
-    Werkzeug started as a simple collection of various utilities for
-    WSGI applications and has become one of the most advanced WSGI
-    utility modules.  It includes a powerful debugger, full featured
-    request and response objects, HTTP utilities to handle entity
-    tags, cache control headers, HTTP dates, cookie handling, file
-    uploads, a powerful URL routing system and a bunch of community
-    contributed addon modules.
+`yaro <http://lukearno.com/projects/yaro/>`_
+    This distribution provides Yet Another Request Object (for WSGI)
+    in a way that is intended to be simple and useful for web
+    developers who don't want to have to know a lot about WSGI to get
+    the job done. It's also a handy convenience for those who do like
+    to get under the hood but would be happy to eliminate some
+    boilerplate without the encumbrance of some
+    all-singing-all-dancing framework.
 
 deprecated
 ----------
-
-`webstring <http://psilib.sourceforge.net/webstring.html>`_
-    webstring is a template engine for programmers whose favorite
-    template language is Python. webstring can be used to generate any
-    text format from a template with the additional advantage of
-    advanced XML and HTML templating using the lxml and cElementTree
-    libraries.
 
 `memento <http://lukearno.com/projects/memento/>`_
     This distribution provides code reloading middleware for use with
@@ -214,6 +207,13 @@ deprecated
     is imported all over again. The concept was inspired by the
     RollBackImporter used by Steve Purcell in `PyUnit
     <http://pyunit.sourceforge.net/notes/reloading.html>`_
+
+`webstring <http://psilib.sourceforge.net/webstring.html>`_
+    webstring is a template engine for programmers whose favorite
+    template language is Python. webstring can be used to generate any
+    text format from a template with the additional advantage of
+    advanced XML and HTML templating using the lxml and cElementTree
+    libraries.
 
 `WSGIOverlay <http://pythonpaste.org/wsgioverlay/>`_
     Application-neutral macro templating language. Seems to be
