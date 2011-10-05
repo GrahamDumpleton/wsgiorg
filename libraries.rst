@@ -188,7 +188,7 @@ Middleware and libraries for WSGI
 
 .. _werkzeug-label:
 
- `Werkzeug <http://werkzeug.pocoo.org/>`_
+`Werkzeug <http://werkzeug.pocoo.org/>`_
     Werkzeug started as a simple collection of various utilities for
     WSGI applications and has become one of the most advanced WSGI
     utility modules.  It includes a powerful debugger, full featured
