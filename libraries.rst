@@ -38,6 +38,10 @@ Middleware and libraries for WSGI
     start_response and returning an iterable, httpy lets you return a
     string, or return or raise a Response object.
 
+`raptorizemw <http://pypi.python.org/pypi/raptorizemw/>`_
+    A layer of WSGI middleware that adds a velociraptor to every page served.
+    Fact:  every WSGI app is better with a raptor.
+
 `selector <http://lukearno.com/projects/selector/>`_
     This distribution provides WSGI middleware for "RESTful" mapping
     of URL paths to WSGI applications. Selector now also comes with
