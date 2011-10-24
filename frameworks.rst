@@ -21,7 +21,7 @@ links!
   Bobo is a light-weight framework. Its goal is to be easy to use and
   remember.
 `Bottle <http://bottle.paws.de/>`_
-    Bottle is a fast and simple mirco-framework for small
+    Bottle is a fast and simple micro-framework for small
     web-applications. It offers request dispatching (Routes) with url
     parameter support, Templates, key/value Databases, a build-in HTTP
     Server and adapters for many third party WSGI/HTTP-server and
