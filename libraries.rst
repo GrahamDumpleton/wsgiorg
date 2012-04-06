@@ -90,7 +90,7 @@ Middleware and libraries for WSGI
     and distribution of common view elements normally used in the
     Web. ToscaWidgets is an almost complete rewrite of TurboGears
     1.0's widgets in the spirit of TurboGears 2.0 philosophy of
-    repackaging it's services as independent WSGI components for
+    repackaging its services as independent WSGI components for
     easier maintenance and reuse in other Python web applications or
     frameworks.
 
