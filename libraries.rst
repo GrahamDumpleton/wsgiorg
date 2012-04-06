@@ -1,8 +1,8 @@
 Middleware and libraries for WSGI
 =================================
 
-`AuthKit <http://authkit.org>`_
-    AuthKit is an authentication and authorization toolkit for WSGI
+`AuthKit <http://web.archive.org/web/20110624175223/http://authkit.org/>`_
+    AuthKit was an authentication and authorization toolkit for WSGI
     applications and frameworks.
 
     The authentication middleware part is essentially an extension of
