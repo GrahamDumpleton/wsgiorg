@@ -129,6 +129,12 @@ documentation on how to use the server is especially appreciated.
     server. Wraps wsgiref_ to add a reloader, multiprocessing, static
     files handling and SSL.
 
+`wsgid <http://wsgid.com>`_
+
+    Wsgid is a generic WSGI handler for mongrel2_ webserver. Wsgid offers
+    a complete daemon environment (start/stop/restart) to your app workers, 
+    including automatically re-spawning of processes.
+
 `WSGIUtils <http://www.owlfish.com/software/wsgiutils/index.html>`_
 
     Includes a threaded HTTP server.
@@ -146,3 +152,5 @@ documentation on how to use the server is especially appreciated.
 
 .. _Unicorn:
     http://unicorn.bogomips.org/
+.. _mongrel2:
+    http://mongrel2.org
