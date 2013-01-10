@@ -1,15 +1,6 @@
 Middleware and libraries for WSGI
 =================================
 
-`AuthKit <http://authkit.org>`_
-    AuthKit is an authentication and authorization toolkit for WSGI
-    applications and frameworks.
-
-    The authentication middleware part is essentially an extension of
-    paste.auth and there is an adaptor module providing support for
-    `Pylons <http://pylonshq.com>`_ although it works with all WSGI
-    apps.
-
 `Barrel <http://lukearno.com/projects/barrel/>`_
     Flexible WSGI authentication and authorization tools.
 
@@ -199,6 +190,16 @@ Middleware and libraries for WSGI
 
 deprecated
 ----------
+
+
+`AuthKit <http://pypi.python.org/pypi/AuthKit>`_
+    AuthKit is an authentication and authorization toolkit for WSGI
+    applications and frameworks.
+
+    The authentication middleware part is essentially an extension of
+    paste.auth and there is an adaptor module providing support for
+    `Pylons <http://pylonshq.com>`_ although it works with all WSGI
+    apps.
 
 `memento <http://lukearno.com/projects/memento/>`_
     This distribution provides code reloading middleware for use with
