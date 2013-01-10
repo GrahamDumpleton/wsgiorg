@@ -105,6 +105,12 @@ documentation on how to use the server is especially appreciated.
     Minimalistic threaded WSGI server built on BaseHTTPServer. Doesn't
     support Transfer-Encoding: chunked.
 
+`phusion passenger <https://www.phusionpassenger.com/>`_
+
+    "proof of concept" WSGI since 2008 (1.x), support upgraded to
+    "beta" in version 3 (with limitations e.g. requires Ruby even when
+    unused) and first-class in Passenger 4.
+
 `python-fastcgi <http://cheeseshop.python.org/pypi/python-fastcgi/1.1>`_
 
     python-fastcgi is a lightweight wrapper around the Open Market
@@ -154,3 +160,5 @@ documentation on how to use the server is especially appreciated.
     http://unicorn.bogomips.org/
 .. _mongrel2:
     http://mongrel2.org
+.. _Rack
+    http://rack.github.com/
