@@ -55,6 +55,12 @@ documentation on how to use the server is especially appreciated.
     Includes threaded and forking versions of servers that support
     FastCGI, SCGI, and AJP protocols.
 
+`gevent-fastcgi <https://github.com/momyc/gevent-fastcgi>`_
+
+    Server implemented using `gevent <http://www.gevent.org/>`_ library.
+    Supports connection multiplexing. Includes adapters for Django and other
+    frameworks that use PasteDeploy.
+
 `Gunicorn <http://gunicorn.org>`_
 
     WSGI HTTP Server for UNIX, fast clients and nothing else. This is
