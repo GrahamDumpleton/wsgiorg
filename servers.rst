@@ -57,8 +57,8 @@ documentation on how to use the server is especially appreciated.
 
 `gevent-fastcgi <https://github.com/momyc/gevent-fastcgi>`_
 
-    Server implemented using `gevent <http://www.gevent.org/>`_ library.
-    Supports connection multiplexing. Includes adapters for Django and other
+    WSGI-over-FastCGI server implemented using `gevent <http://www.gevent.org/>`_ coroutine-based network library.
+    Supports FastCGI connection multiplexing. Includes adapters for Django and other
     frameworks that use PasteDeploy.
 
 `Gunicorn <http://gunicorn.org>`_
