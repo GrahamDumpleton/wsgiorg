@@ -21,7 +21,7 @@ documentation on how to use the server is especially appreciated.
     A pure-Python web server (using the CherryPy module mentioned
     next) with three hooks to hang your WSGI on.
 
-`cherrypy.wsgiserver <http://www.cherrypy.org/browser/trunk/cherrypy/wsgiserver>`_
+`cherrypy.wsgiserver <http://docs.cherrypy.org/stable/refman/wsgiserver/init.html>`_
 
     CherryPy's "high-speed, production ready, thread pooled, generic
     WSGI server." Includes SSL support.  Supports Transfer-Encoding:
