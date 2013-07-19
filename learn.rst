@@ -19,7 +19,7 @@ Learn about WSGI
   <http://pythonpaste.org/url-parsing-with-wsgi.html>`_ by Ian Bicking
 
 * `WSGI and WSGI Middleware is Easy
-  <http://be.groovie.org/post/296349572/wsgi-and-wsgi-middleware-is-easy>`_
+  <http://be.groovie.org/2005/10/07/wsgi_and_wsgi_middleware_is_easy.html>`_
   by Ben Bangert
 
 * `WSGI - Gateway or Glue
