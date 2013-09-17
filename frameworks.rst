@@ -34,6 +34,10 @@ links!
     and middleware.
 `Django <http://www.djangoproject.com/>`_
     Includes support for WSGI servers
+`Falcon <http://falconframework.org/>`_
+    Falcon is a high-performance Python framework for building cloud 
+    APIs. It encourages the REST architectural style, and tries to do 
+    as little as possible while remaining highly effective.
 `Flask <http://flask.pocoo.org/>`_
     Flask is a microframework for Python based on Werkzeug, Jinja 2
     and good intentions.
