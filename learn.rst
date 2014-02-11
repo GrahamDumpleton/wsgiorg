@@ -30,8 +30,8 @@ Learn about WSGI
   <http://www-128.ibm.com/developerworks/library/wa-wsgi/>`_ by Uche
   Ogbuji
 
-* `'Hello World with WSGI' <http://rufuspollock.org/archives/120>`_
-  and `WSGI Middleware <http://rufuspollock.org/archives/127>`_ by
+* `'Hello World with WSGI' <http://rufuspollock.org/2006/08/31/a-very-simple-introduction-to-wsgi/>`_
+  and `WSGI Middleware <http://rufuspollock.org/2006/09/28/wsgi-middleware/>`_ by
   Rufus Pollock
 
 * `Getting started with WSGI
