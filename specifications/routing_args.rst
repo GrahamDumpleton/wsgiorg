@@ -39,7 +39,7 @@ This specification defines a new key that can go in the WSGI
 environment, :envvar:`wsgiorg.routing_args`.  This key is optional.
 
 If a dispatcher (like `routes <http://routes.groovie.org/>`_ or
-`selector <http://lukearno.com/projects/selector/>`_) pulls named
+`selector <https://github.com/lukearno/selector>`_) pulls named
 information out of the portion of the request path it parses, it can
 put that information into ``environ['wsgiorg.routing_args']``.
 ``routing_args`` must be a two-tuple of ``(positional_args,

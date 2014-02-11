@@ -1,7 +1,7 @@
 Middleware and libraries for WSGI
 =================================
 
-`Barrel <http://lukearno.com/projects/barrel/>`_
+`Barrel <http://pypi.python.org/pypi/barrel>`_
     Flexible WSGI authentication and authorization tools.
 
 `Beaker <http://beaker.groovie.org/>`_
@@ -17,7 +17,7 @@ Middleware and libraries for WSGI
     implemented, and separating site-wide styling from
     application-level templating.
 
-`hatom2atom <http://lukearno.com/projects/hatom2atom>`_
+`hatom2atom <http://pypi.python.org/pypi/hatom2atom>`_
     hatom2atom provides Python tools for use with
     hAtom2Atom.xsl. Includes a test runner that uses html/atom file
     pairs to test for expected output and a WSGI app that acts as a
@@ -60,13 +60,13 @@ Middleware and libraries for WSGI
     Provides integration between `Schevo
     <https://github.com/11craft/schevo>`_ and WSGI apps.
 
-`selector <http://lukearno.com/projects/selector/>`_
+`selector <https://github.com/lukearno/selector>`_
     This distribution provides WSGI middleware for "RESTful" mapping
     of URL paths to WSGI applications. Selector now also comes with
     components for environ based dispatch and on-the-fly middleware
     composition.
 
-`static <http://lukearno.com/projects/static/>`_
+`static <https://github.com/lukearno/static>`_
     This distribution provides an easy way to include static content
     in your WSGI applications. There is a convenience method for
     serving files located via pkg_resources. There are also facilities
@@ -179,7 +179,7 @@ Middleware and libraries for WSGI
     * An HTTP response generator
     * A secondary WSGI dispatcher
 
-`yaro <http://lukearno.com/projects/yaro/>`_
+`yaro <http://pypi.python.org/pypi/yaro>`_
     This distribution provides Yet Another Request Object (for WSGI)
     in a way that is intended to be simple and useful for web
     developers who don't want to have to know a lot about WSGI to get
@@ -201,7 +201,7 @@ deprecated
     `Pylons <http://pylonshq.com>`_ although it works with all WSGI
     apps.
 
-`memento <http://lukearno.com/projects/memento/>`_
+`memento <http://pypi.python.org/pypi/memento>`_
     This distribution provides code reloading middleware for use with
     your WSGI applications. Upon recieving each request, it forgets
     everything that it has imported since the last request so that it
