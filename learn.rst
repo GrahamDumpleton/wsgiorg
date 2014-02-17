@@ -27,7 +27,7 @@ Learn about WSGI
   Rees (**particularly good as a starting point**)
 
 * `Mix and match Web components with Python WSGI
-  <http://www-128.ibm.com/developerworks/library/wa-wsgi/>`_ by Uche
+  <http://www.ibm.com/developerworks/library/wa-wsgi/>`_ by Uche
   Ogbuji
 
 * `'Hello World with WSGI' <http://rufuspollock.org/2006/08/31/a-very-simple-introduction-to-wsgi/>`_
