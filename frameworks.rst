@@ -47,6 +47,10 @@ links!
     The notmm toolkit is a fork of Django that doesn't get in your
     way. Features includes improved WSGI support (Paste), SQLAlchemy,
     and very few developers! ;-)
+`PoorWSGI <http://poorhttp.zeropage.cz/poorwsgi.html>`_
+    Poor WSGI for Python is light WGI connector with uri routing between WSGI
+    server and your application. It have mod_python compatible request object,
+    which is post to all uri or http state handler.
 `Pyramid <https://www.pylonsproject.org/projects/pyramid/about>`_
     Merger of the Pylons and repoze.bfg projects, Pyramid is a
     minimalist web framework aiming at composability and making
