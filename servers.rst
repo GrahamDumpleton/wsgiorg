@@ -106,6 +106,13 @@ documentation on how to use the server is especially appreciated.
     applications on Windows Server. This is a potential alternative to
     ISAPI + ISAPI_WSGI modules.
 
+`netius <http://netius.hive.pt/>`_
+
+    Netius is a Python network library that can be used for the rapid 
+    creation of asynchronous non-blocking servers and clients. It has no 
+    dependencies, it's cross-platform, and brings some sample netius-powered 
+    servers out of the box, namely a production-ready WSGI server.
+
 `paste.httpserver <http://pythonpaste.org/modules/httpserver.html#module-paste.httpserver>`_
 
     Minimalistic threaded WSGI server built on BaseHTTPServer. Doesn't
