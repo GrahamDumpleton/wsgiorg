@@ -112,7 +112,7 @@ Middleware and libraries for WSGI
     configuration template language for wiring named components into
     an application, and an applications programmer interface for
     accessing named components from Python and javascript modules.
-    
+
 `wsgiakismet <http://cheeseshop.python.org/pypi/wsgiakismet/>`_
     Validates form submissions against the Akismet service to verify
     that they are not comment spam.
@@ -159,6 +159,11 @@ Middleware and libraries for WSGI
     WSGI. Sessions are `flup
     <http://www.saddi.com/software/flup/>`_-compatible. Supports
     memory, filesystem, database, and memcached based backends.
+
+`wsgi-statsd <http://cheeseshop.python.org/pypi/wsgi-statsd/>`_
+    WSGI middleware that provides an easy way to time all requests and
+    report to `statsd <https://github.com/etsy/statsd/>`_.
+    Measurement key names are automatically generated.
 
 `WSGIUtils <http://www.owlfish.com/software/wsgiutils/index.html>`_
     Includes a simple WSGI application (wsgiAdaptor) that provides
