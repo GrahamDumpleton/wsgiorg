@@ -17,6 +17,11 @@ links!
   noted in :doc:`libraries` Please feel free to expand on
   the list, the descriptions, or to make corrections.
 
+
+`appier <http://appier.hive.pt>`_
+  Appier is an object-oriented Python web framework built for super fast 
+  app development. It's as lightweight as possible, but not too lightweight. 
+  It gives you the power of bigger frameworks, without their complexity.
 `bobo <http://bobo.digicool.com>`_
   Bobo is a light-weight framework. Its goal is to be easy to use and
   remember.
