@@ -21,11 +21,15 @@ documentation on how to use the server is especially appreciated.
     A pure-Python web server (using the CherryPy module mentioned
     next) with three hooks to hang your WSGI on.
 
-`cherrypy.wsgiserver <http://docs.cherrypy.org/stable/refman/wsgiserver/init.html>`_
+`cherrypy.wsgiserver <http://docs.cherrypy.org/en/latest/advanced.html#wsgi-support>`_
 
     CherryPy's "high-speed, production ready, thread pooled, generic
     WSGI server." Includes SSL support.  Supports Transfer-Encoding:
-    chunked.
+    chunked. For details on running foreign (non-CherryPy) applications
+    under the CherryPy WSGI server, see `WSGI Support
+    <http://docs.cherrypy.org/en/latest/advanced.html#wsgi-support>`_.
+    See also the
+    `CherryPy wiki ModWSGI page <http://tools.cherrypy.org/wiki/ModWSGI>`_.
 
 `chiral.web.httpd <http://chiral.j4cbo.com/trac>`_
     
