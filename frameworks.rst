@@ -56,6 +56,10 @@ links!
     Poor WSGI for Python is light WGI connector with uri routing between WSGI
     server and your application. It have mod_python compatible request object,
     which is post to all uri or http state handler.
+`Pycnic <http://pycnic.nullism.com>`_
+    Pycnic is a mimimalist JSON API oriented framework for Python 2.7 and 3.x. 
+    It provides routing, cookies, and JSON error handling, while maintaining
+    a small codebase.
 `Pyramid <https://www.pylonsproject.org/projects/pyramid/about>`_
     Merger of the Pylons and repoze.bfg projects, Pyramid is a
     minimalist web framework aiming at composability and making
