@@ -90,7 +90,10 @@ links!
     separation, reusable namespaces, and universal URL dispatch
     protocol with tight WebOb integration and natural Python
     semantics. Fully tested, digitally signed, and supports Python
-    2.7+ and 3.2+, including Pypy and Pypy3.
+    2.7+ and 3.2+, including Pypy and Pypy3. Acts as either a WSGI
+    application exposing a richer API for applications, allows
+    extensions to add WSGI middleware layers around the WebCore
+    application, but can also consume other WSGI applications.
 `weblayer <http://packages.python.org/weblayer>`_
     weblayer is a lightweight, componentised package for writing WSGI
     applications.
