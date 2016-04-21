@@ -84,6 +84,12 @@ links!
     Oracle, FireBase, Ingres and Google App Engine), its own template
     laguage, and a web based IDE.  web2py itself is a WSGI app.  Not
     related to web.py.
+`WebCore <https://github.com/marrow/WebCore>`_
+    A nanoframework (only a few hundred lines of code) offering an
+    entry_points-based dependency graphing extension system, MVC
+    separation, reusable namespaces, and universal URL dispatch
+    protocol with tight WebOb integration and natural Python
+    semantics.
 `weblayer <http://packages.python.org/weblayer>`_
     weblayer is a lightweight, componentised package for writing WSGI
     applications.
