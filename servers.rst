@@ -157,6 +157,12 @@ documentation on how to use the server is especially appreciated.
     Wsgid is a generic WSGI handler for mongrel2_ webserver. Wsgid offers
     a complete daemon environment (start/stop/restart) to your app workers, 
     including automatically re-spawning of processes.
+    
+`WSGIserver <https://fgallaire.github.io/wsgiserver>`_
+
+    WSGIserver is a high-speed, production ready, thread pooled, generic WSGI
+    server with SSL support for both Python 2 (2.6 and above) and Python 3
+    (3.1 and above). WSGIserver is a one file project with no dependency.
 
 `WSGIUtils <http://www.owlfish.com/software/wsgiutils/index.html>`_
 
