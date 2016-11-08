@@ -60,7 +60,7 @@ links!
     Pycnic is a mimimalist JSON API oriented framework for Python 2.7 and 3.x. 
     It provides routing, cookies, and JSON error handling, while maintaining
     a small codebase.
-`Pyramid <https://www.pylonsproject.org/projects/pyramid/about>`_
+`Pyramid <http://www.pylonsproject.org/projects/pyramid/about>`_
     Merger of the Pylons and repoze.bfg projects, Pyramid is a
     minimalist web framework aiming at composability and making
     developers paying only for what they use.
