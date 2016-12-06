@@ -99,7 +99,7 @@ documentation on how to use the server is especially appreciated.
     `java servlet containers
     <http://en.wikipedia.org/wiki/Java_Servlet>`_.
 
-`mod_wsgi <http://code.google.com/p/modwsgi/>`_
+`mod_wsgi <http://www.modwsgi.org>`_
 
     Python WSGI adapter module for Apache
 
