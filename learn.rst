@@ -1,7 +1,7 @@
 Learn about WSGI
 ================
 
-* `WSGI Tutorial <http://webpython.codepoint.net/wsgi_tutorial>`_ by
+* `WSGI Tutorial <http://wsgi.tutorial.codepoint.net/>`_ by
   Clodoaldo Neto
 
 * `WSGI Explorations in Python
@@ -12,7 +12,7 @@ Learn about WSGI
   Titus Brown
 
 * `A Do-It-Yourself Framework
-  <http://pythonpaste.org/do-it-yourself-framework.html>`_ by Ian
+  <http://paste.readthedocs.io/en/latest/do-it-yourself-framework.html>`_ by Ian
   Bicking
 
 * `URL Parsing with WSGI
