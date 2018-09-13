@@ -1,7 +1,7 @@
 Learn about WSGI
 ================
 
-* `WSGI Tutorial <http://webpython.codepoint.net/wsgi_tutorial>`_ by
+* `WSGI Tutorial <http://wsgi.tutorial.codepoint.net/intro>`_ by
   Clodoaldo Neto
 
 * `WSGI Explorations in Python
