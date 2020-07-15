@@ -94,10 +94,11 @@ links!
     weblayer is a lightweight, componentised package for writing WSGI
     applications.
 `Zope <https://zope.readthedocs.io>`_
-    The former Zope 2 web application server is now nearing version 4.
-    It now uses WSGI as the default publishing method. A starting
-    configuration using the ``waitress`` WSGI server is included, but all
-    WSGI-compliant servers are supported.
+    The Zope web application server has been using WSGI as the default
+    publishing method starting with version 4. A sample configuration using
+    the ``waitress`` WSGI server is included, but most WSGI-compliant servers
+    are supported.
+
 
 Deprecated Systems
 ------------------
@@ -158,4 +159,4 @@ unmaintained.
     now a WSGI application.  It *seems* to have some WSGI bits deep
     inside the publisher, but they aren't really documented at this
     time. It is no longer developed as standalone application server, but
-    many of its libraries continue life inside Zope 4.
+    many of its libraries continue life inside Zope.
