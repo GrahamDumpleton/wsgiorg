@@ -1,8 +1,7 @@
 Learn about WSGI
 ================
 
-* `WSGI Tutorial <http://wsgi.tutorial.codepoint.net/>`_ by
-  Clodoaldo Neto
+* `WSGI Tutorial <http://wsgi.tutorial.codepoint.net/>`_ by Clodoaldo Neto
 
 * `WSGI Explorations in Python
   <http://linuxgazette.net/115/orr.html>`_ by Mike Orr
@@ -23,7 +22,7 @@ Learn about WSGI
   by Ben Bangert
 
 * `WSGI - Gateway or Glue
-  <http://osdcpapers.cgpublisher.com/product/pub.84/prod.21>`_ by Mark
+  <https://web.archive.org/web/20170928103920/http://osdcpapers.cgpublisher.com/product/pub.84/prod.21>`_ by Mark
   Rees (**particularly good as a starting point**)
 
 * `Mix and match Web components with Python WSGI
