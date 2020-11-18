@@ -184,6 +184,15 @@ Middleware and libraries for WSGI
     * An HTTP response generator
     * A secondary WSGI dispatcher
 
+`WSocket <https://github.com/Ksengine/WSocket>`_
+    Simple WSGI HTTP + Websocket Server, Framework, Middleware And App.
+    
+    * Server - Multi threaded WSGI server
+    * Middleware - Add Websocket communicaion to any WSGI framework
+    * Handler - Add Websocket communicaion to wsgiref(python default WSGI server)
+    * Framework -  Websocket WSGI web application framework
+    * App - Event based Websocket serverside app
+
 `yaro <http://pypi.python.org/pypi/yaro>`_
     This distribution provides Yet Another Request Object (for WSGI)
     in a way that is intended to be simple and useful for web
