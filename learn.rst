@@ -12,7 +12,7 @@ Learn about WSGI
   Titus Brown
 
 * `A Do-It-Yourself Framework
-  <https://ianbicking.org/2008/04/17/webob-do-it-yourself-framework/index.html>`_ by Ian
+  <https://paste.readthedocs.io/en/latest/do-it-yourself-framework.html>`_ by Ian
   Bicking
 
 * `URL Parsing with WSGI
