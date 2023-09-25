@@ -12,14 +12,14 @@ Learn about WSGI
   Titus Brown
 
 * `A Do-It-Yourself Framework
-  <http://pythonpaste.org/do-it-yourself-framework.html>`_ by Ian
+  <https://paste.readthedocs.io/en/latest/do-it-yourself-framework.html>`_ by Ian
   Bicking
 
 * `URL Parsing with WSGI
-  <http://pythonpaste.org/url-parsing-with-wsgi.html>`_ by Ian Bicking
+  <https://paste.readthedocs.io/en/latest/url-parsing-with-wsgi.html>`_ by Ian Bicking
 
 * `WSGI and WSGI Middleware is Easy
-  <http://be.groovie.org/2005/10/07/wsgi_and_wsgi_middleware_is_easy.html>`_
+  <https://be.groovie.org/post/2005/10/07/wsgi_and_wsgi_middleware_is_easy/>`_
   by Ben Bangert
 
 * `WSGI - Gateway or Glue
@@ -27,7 +27,7 @@ Learn about WSGI
   Rees (**particularly good as a starting point**)
 
 * `Mix and match Web components with Python WSGI
-  <http://www.ibm.com/developerworks/library/wa-wsgi/>`_ by Uche
+  <https://copia.posthaven.com/mix-and-match-web-components-with-python-wsgi>`_ by Uche
   Ogbuji
 
 * `'Hello World with WSGI' <http://rufuspollock.org/2006/08/31/a-very-simple-introduction-to-wsgi/>`_
@@ -39,7 +39,7 @@ Learn about WSGI
   Armin Ronacher
 
 * `Why so many Python web frameworks?
-  <http://bitworking.org/news/Why_so_many_Python_web_frameworks>`_ by
+  <https://bitworking.org/news/2006/09/why_so_many_python_web_frameworks/>`_ by
   Joe Gregorio (*outlines the creation of a web framework using
   several WSGI-based tools*)
 
