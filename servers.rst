@@ -148,6 +148,12 @@ documentation on how to use the server is especially appreciated.
    A WSGI server based on Twisted Web's HTTP server (requires Twisted
    8.2 or later).
 
+`unit <https://unit.nginx.org>`_
+   A new lightweight declarative-configuration application server by
+   NGINX, Inc, with `built-in first-class support for WSGI (and ASGI)
+   <https://unit.nginx.org/configuration/#python>`_, including
+   websocket support.
+
 `uWSGI <http://projects.unbit.it/uwsgi>`_
 
    Fast, self-healing, developer-friendly WSGI server, meant for
