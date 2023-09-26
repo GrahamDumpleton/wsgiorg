@@ -21,6 +21,13 @@ documentation on how to use the server is especially appreciated.
     A pure-Python web server (using the CherryPy module mentioned
     next) with three hooks to hang your WSGI on.
 
+`Bjoern <https://github.com/jonashaag/bjoern>`_
+    A “screamingly fast Python WSGI server” and boasts that
+    it is “the fastest, smallest and most lightweight WSGI server.”
+    See performance testing `testing WSGI servers with 
+    wrk <https://www.appdynamics.com/blog/engineering/a-performance-analysis-of-python-wsgi-servers-part-2/>`_
+    See the `install instructions <https://github.com/jonashaag/bjoern/wiki/Installation>`_
+
 `cherrypy.wsgiserver <http://docs.cherrypy.org/en/latest/advanced.html#wsgi-support>`_
 
     CherryPy's "high-speed, production ready, thread pooled, generic
