@@ -93,11 +93,10 @@ links!
 `weblayer <http://packages.python.org/weblayer>`_
     weblayer is a lightweight, componentised package for writing WSGI
     applications.
-`Zope 3 <http://www.zope.org/>`_
-    The venerable Python web framework, recreated anew in Zope 3, and
-    now a WSGI application.  It *seems* to have some WSGI bits deep
-    inside the publisher, but they aren't really documented at this
-    time.
+`Zope <https://zope.readthedocs.io>`_
+    The Zope web application server has been using WSGI as the default
+    publishing method starting with version 4.
+
 
 Deprecated Systems
 ------------------
@@ -153,3 +152,9 @@ unmaintained.
     Python Web applications, allowing such applications to run within
     many different environments with virtually no changes to
     application code.
+`Zope 3 <http://www.zope.org/>`_
+    The venerable Python web framework, recreated anew in Zope 3, and
+    now a WSGI application.  It *seems* to have some WSGI bits deep
+    inside the publisher, but they aren't really documented at this
+    time. It is no longer developed as standalone application server, but
+    many of its libraries continue life inside Zope.
