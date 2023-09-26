@@ -95,9 +95,7 @@ links!
     applications.
 `Zope <https://zope.readthedocs.io>`_
     The Zope web application server has been using WSGI as the default
-    publishing method starting with version 4. A sample configuration using
-    the ``waitress`` WSGI server is included, but most WSGI-compliant servers
-    are supported.
+    publishing method starting with version 4.
 
 
 Deprecated Systems
