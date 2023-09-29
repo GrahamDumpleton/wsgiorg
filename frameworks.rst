@@ -22,17 +22,17 @@ links!
   Appier is an object-oriented Python web framework built for super fast 
   app development. It's as lightweight as possible, but not too lightweight. 
   It gives you the power of bigger frameworks, without their complexity.
-`bobo <https://bobo.readthedocs.io/en/latest/>`_
+`bobo <https://bobo.readthedocs.io>`_
   Bobo is a light-weight framework. Its goal is to be easy to use and
   remember.
-`Bottle <https://bottlepy.org/docs/dev/#>`_
+`Bottle <https://bottlepy.org>`_
     Bottle is a fast and simple micro-framework for small
     web-applications. It offers request dispatching (Routes) with url
     parameter support, Templates, key/value Databases, a build-in HTTP
     Server and adapters for many third party WSGI/HTTP-server and
     template engines. All in a single file and with no dependencies
     other than the Python Standard Library.
-`CherryPy <https://cherrypy.dev/>`_
+`CherryPy <https://cherrypy.dev>`_
     CherryPy is a pythonic, object-oriented web development framework.
     Includes support for WSGI servers.  CherryPy 3 includes better
     support for living alongside other WSGI frameworks, applications,
@@ -48,6 +48,10 @@ links!
     and good intentions.
 
     It inherits its high WSGI usage and compliance from Werkzeug.
+`django-hotsauce <https://pypi.org/project/django-hotsauce/>`_
+    The Django-hotsauce programming toolkit is a high-performance and 
+    scalable Python web framework derived from Django project. Previously
+    known as notmm toolkit. 
 
 `PoorWSGI <http://poorhttp.zeropage.cz/poorwsgi/>`_
     Poor WSGI for Python is light WGI connector with uri routing between WSGI
@@ -101,11 +105,6 @@ Deprecated Systems
 These systems still exist but got replaced by others or are
 unmaintained.
 
-`notmm <https://pypi.org/project/django-hotsauce/0.5.5/>`_
-    The notmm toolkit aims to provide tools for 
-    rapid web application development and testing on top of the 
-    Django framework and WSGI. It is renamed as Django-hotsauce and is updated
-    to a newer version.
 `Clever Harold <http://pypi.python.org/pypi/CleverHarold/0.1/>`_
     Clever Harold is an ambitious web framework. It has many features
     for rapid, reusable, and reliable web application
