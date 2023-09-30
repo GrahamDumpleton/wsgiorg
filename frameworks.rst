@@ -39,6 +39,10 @@ links!
     and middleware.
 `Django <http://www.djangoproject.com/>`_
     Includes support for WSGI servers
+`django-hotsauce <https://pypi.org/project/django-hotsauce/>`_
+    The Django-hotsauce programming toolkit is a high-performance and 
+    scalable Python web framework derived from Django project. Previously
+    known as notmm toolkit. 
 `Falcon <http://falconframework.org/>`_
     Falcon is a high-performance Python framework for building cloud 
     APIs. It encourages the REST architectural style, and tries to do 
@@ -48,11 +52,6 @@ links!
     and good intentions.
 
     It inherits its high WSGI usage and compliance from Werkzeug.
-`django-hotsauce <https://pypi.org/project/django-hotsauce/>`_
-    The Django-hotsauce programming toolkit is a high-performance and 
-    scalable Python web framework derived from Django project. Previously
-    known as notmm toolkit. 
-
 `PoorWSGI <http://poorhttp.zeropage.cz/poorwsgi/>`_
     Poor WSGI for Python is light WGI connector with uri routing between WSGI
     server and your application. It have mod_python compatible request object,
