@@ -64,15 +64,6 @@ links!
     Merger of the Pylons and repoze.bfg projects, Pyramid is a
     minimalist web framework aiming at composability and making
     developers paying only for what they use.
-`QWeb <https://github.com/antonylesuisse/qweb>`_
-    Another WSGI framework (not sure what the distinguishing features
-    are)
-`repoze.zope2 <https://pypi.org/project/repoze.zope2/>`_ 
-    A module that implements an analogue of the Zope 2 ZPublisher,
-    with some major simplifications and cleanups. Its core mission is
-    to allow publishing existing Zope2 applications in a WSGI
-    environment that externalizes some of the features of "classic"
-    Zope2 into middleware.
 `TurboGears <http://turbogears.org/>`_
     Database-driven app in minutes; inherits its WSGI support from
     CherryPy.
@@ -90,9 +81,6 @@ links!
     separation, reusable namespaces, and universal URL dispatch
     protocol with tight WebOb integration and natural Python
     semantics.
-`weblayer <http://packages.python.org/weblayer>`_
-    weblayer is a lightweight, componentised package for writing WSGI
-    applications.
 `Zope <https://zope.readthedocs.io>`_
     The Zope web application server has been using WSGI as the default
     publishing method starting with version 4.
@@ -131,12 +119,23 @@ unmaintained.
     best from the worlds of Ruby, Python and Perl.
 
     Pylons has been superseded by pyramid_ .
+`QWeb <https://github.com/antonylesuisse/qweb>`_
+    Another WSGI framework (not sure what the distinguishing features
+    are)
 `repoze.bfg <http://bfg.repoze.org>`_
     A Python WSGI-compliant web framework inspired by Zope, Pylons,
     and Django with built-in security and templating.
 
     repoze.bfg was renamed pyramid_ and moved under the Pylons
     project.
+`repoze.zope2 <https://pypi.org/project/repoze.zope2/>`_ 
+    A module that implements an analogue of the Zope 2 ZPublisher,
+    with some major simplifications and cleanups. Its core mission is
+    to allow publishing existing Zope2 applications in a WSGI
+    environment that externalizes some of the features of "classic"
+    Zope2 into middleware.
+
+    Obsoleted by Zope 2.13.
 `RhubarbTart <http://pypi.python.org/pypi/RhubarbTart/0.5>`_
     A pure-WSGI dispatcher and simple framework, inspired by CherryPy.
 `simpleweb <http://code.google.com/p/simpleweb-py/>`_
@@ -144,6 +143,9 @@ unmaintained.
     TurboGears, and web.py.
 `skunk.web <http://code.google.com/p/satimol/>`_
     A totally WSGI-ified version of SkunkWeb.
+`weblayer <http://packages.python.org/weblayer>`_
+    weblayer is a lightweight, componentised package for writing WSGI
+    applications.
 `Wareweb <http://pythonpaste.org/wareweb/>`_
     A rethinking of the Webware/WebKit servlet model, in a pure-WSGI
     framework.  Not used widely.
