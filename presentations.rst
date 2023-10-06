@@ -5,12 +5,8 @@ Videos
 ------
 
 `ReUsable Web Components with Python and Future Python Web Development
-<http://video.google.com/videoplay?docid=-872784530622495809>`_
+<https://youtu.be/Ui-mSFuUZmQ?si=LZsrGimD5FVab8_b>`_
 (Google TechTalk, 2006, Ben Bangert)
-
-`WSGI: Working together to solve the web's problems
-<http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-wsgi-working-together-to-solve-the-web-s-problems-4895590>`_
-(PyCon 2011, panel)
 
 Slide decks
 -----------
