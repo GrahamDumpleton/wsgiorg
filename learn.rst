@@ -54,7 +54,7 @@ Learn about WSGI
 * `test.wsgi
   <http://hg.moinmo.in/moin/1.8/raw-file/tip/wiki/server/test.wsgi>`_
   a WSGI test app showing whether your WSGI environment is working
-  (and also outputs some interesting informations like Python version,
+  (and also outputs some interesting information like Python version,
   sys.path, WSGI environment, etc.). It can be directly used for
   mod_wsgi and easily for all other WSGI servers. When started
   directly from command line, it tries to use wsgiref's simple server

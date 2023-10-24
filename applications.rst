@@ -65,7 +65,7 @@ Deprecated
 
     Python weblog software built from reusable components. It offers
     many of the usual features of weblog engines, but its basic
-    opration and plug-in model is based on WSGI. Many existing WSGI
+    operation and plug-in model is based on WSGI. Many existing WSGI
     components can be plugged directly into Bright Content in order to
     enhance its functionality. Bright Content also has a set of
     specialized components for common weblog needs.
