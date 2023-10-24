@@ -5,7 +5,7 @@ Middleware and libraries for WSGI
     Flexible WSGI authentication and authorization tools.
 
 `Beaker <http://beaker.groovie.org/>`_
-    Lighweight WSGI sessions middleware.
+    Lightweight WSGI sessions middleware.
 
     Beaker’s starts with the Perl Cache::Cache module, which was
     ported for use in Myghty. Beaker was then extracted from this
@@ -208,7 +208,7 @@ deprecated
 
 `memento <http://pypi.python.org/pypi/memento>`_
     This distribution provides code reloading middleware for use with
-    your WSGI applications. Upon recieving each request, it forgets
+    your WSGI applications. Upon receiving each request, it forgets
     everything that it has imported since the last request so that it
     is imported all over again. The concept was inspired by the
     RollBackImporter used by Steve Purcell in `PyUnit
