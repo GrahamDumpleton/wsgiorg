@@ -73,7 +73,7 @@ links!
     A full stack framework includes its own Database Abstraction Layer
     (with support for SQLite, MySQL, PostgreSQL, MSSQL, DB2, Informix,
     Oracle, FireBase, Ingres and Google App Engine), its own template
-    laguage, and a web based IDE.  web2py itself is a WSGI app.  Not
+    language, and a web based IDE.  web2py itself is a WSGI app.  Not
     related to web.py.
 `WebCore <https://github.com/marrow/WebCore>`_
     A nanoframework (only a few hundred lines of code) offering an
@@ -100,7 +100,7 @@ unmaintained.
     that fit your needs.
 `Colubrid <http://wsgiarea.pocoo.org/colubrid/>`_
     Colubrid is a WSGI publisher which simplifies python web
-    developement.  Colubrid is not a framework :-) Although some
+    development.  Colubrid is not a framework :-) Although some
     people like the idea of having found a framework in colubrid. All
     colubrid does for you is parsing form data / url parameters /
     cookies and providing a url dispatcher. Colubrid was replaced by
