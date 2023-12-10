@@ -120,6 +120,9 @@ documentation on how to use the server is especially appreciated.
     FastCGI C Library/SDK. It includes threaded and forking WSGI
     server implementations.
 
+`Granian <https://github.com/emmett-framework/granian>`_
+    A Rust HTTP server for Python applications. Supports ASGI/3, RSGI and WSGI interface applications.
+
 `Spawning <http://pypi.python.org/pypi/Spawning>`_
    .. n/a
 
