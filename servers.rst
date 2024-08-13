@@ -65,7 +65,7 @@ documentation on how to use the server is especially appreciated.
 
 `Gunicorn <http://gunicorn.org>`_
     WSGI HTTP Server for UNIX, fast clients and nothing else. This is
-    a port of Unicorn_ to Python and WSGI.
+    a part of Unicorn_ to Python and WSGI.
 
 `ISAPI-WSGI <http://code.google.com/p/isapi-wsgi/>`_
     An implementation of WSGI for running as a ISAPI extension under
