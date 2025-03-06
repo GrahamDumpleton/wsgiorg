@@ -63,6 +63,9 @@ documentation on how to use the server is especially appreciated.
     Supports FastCGI connection multiplexing. Includes adapters for Django and other
     frameworks that use PasteDeploy.
 
+`Granian <https://github.com/emmett-framework/granian>`_
+    A Rust HTTP server for Python applications. Supports ASGI/3, RSGI and WSGI interface applications.
+
 `Gunicorn <http://gunicorn.org>`_
     WSGI HTTP Server for UNIX, fast clients and nothing else. This is
     a port of Unicorn_ to Python and WSGI.
@@ -119,9 +122,6 @@ documentation on how to use the server is especially appreciated.
     python-fastcgi is a lightweight wrapper around the Open Market
     FastCGI C Library/SDK. It includes threaded and forking WSGI
     server implementations.
-
-`Granian <https://github.com/emmett-framework/granian>`_
-    A Rust HTTP server for Python applications. Supports ASGI/3, RSGI and WSGI interface applications.
 
 `Spawning <http://pypi.python.org/pypi/Spawning>`_
    .. n/a
