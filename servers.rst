@@ -7,9 +7,6 @@ WSGI-only systems, in other cases a package includes a server.
 Please feel free to expand the list or descriptions.  Direct links to
 documentation on how to use the server is especially appreciated.
 
-`Aspen <https://github.com/AspenWeb/aspen.py>`_
-    A pure-Python web server and framework, serving WSGI applications.
-
 `Cheroot <https://cheroot.cherrypy.dev>`_
     The high-performance, pure-Python HTTP server used by CherryPy
     (formerly ``cherrypy.wsgiserver``). A production-ready, thread
@@ -49,6 +46,12 @@ documentation on how to use the server is especially appreciated.
 `twisted.web <https://docs.twisted.org/en/stable/web/howto/web-in-60/wsgi.html>`_
    A WSGI server based on Twisted Web's HTTP server (requires Twisted
    8.2 or later).
+
+`uWSGI <https://uwsgi-docs.readthedocs.io/en/latest/>`_
+   Fast, self-healing, developer-friendly WSGI server, meant for
+   professional deployment and development of Python Web applications.
+   *Note: uWSGI is in maintenance mode: only bug and security fixes are
+   expected, no new features.*
 
 `Waitress <https://docs.pylonsproject.org/projects/waitress/en/latest/>`_
     A production-quality pure-Python WSGI server with very acceptable

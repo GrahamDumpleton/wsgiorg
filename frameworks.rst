@@ -66,3 +66,16 @@ links!
 `Zope <https://zope.readthedocs.io>`_
     The Zope web application server has been using WSGI as the default
     publishing method starting with version 4.
+
+
+Deprecated Systems
+------------------
+
+These systems still exist but got replaced by others or are
+unmaintained.
+
+`Pylons <https://pylonshq.com/>`_
+    Full-stack Python web development framework combining the very
+    best from the worlds of Ruby, Python and Perl.
+
+    Pylons has been superseded by pyramid_ .
